@@ -1,0 +1,8 @@
+README.md
+setup.py
+Predictive_Maintenance.egg-info/PKG-INFO
+Predictive_Maintenance.egg-info/SOURCES.txt
+Predictive_Maintenance.egg-info/dependency_links.txt
+Predictive_Maintenance.egg-info/requires.txt
+Predictive_Maintenance.egg-info/top_level.txt
+venv/bin/activate_this.py

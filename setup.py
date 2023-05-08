@@ -1,16 +1,16 @@
-# This is a sample Python script.
+from pathlib import Path
+from setuptools import find_namespace_packages, setup
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+BASE_DIR = Path(__file__).parent
+with open(Path(BASE_DIR, 'requirements.txt'), 'r') as f:
+    required_packages = [ln.strip() for ln in f.readlines()]
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+setup(
+    name='Predictive Maintenance',
+    version='0.0.1',
+    description='Predictive Maintenance Multi-Model Classification Project',
+    author='Vishwas Gowda',
+    url='https://github.com/vishwasg217/Predictive-Maintenance',
+    packages=find_namespace_packages(),
+    install_requires=required_packages,
+)
