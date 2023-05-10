@@ -1,14 +1,15 @@
-from pathlib import Path
-import logging
+
 import sys
+from pathlib import Path
+from rich.logging import RichHandler
+import logging
+import logging.config
 
 BASE_DIR = Path(__file__).parent.parent.absolute()
-CONFIG_DIR = Path(BASE_DIR, 'config')
-DATA_DIR = Path(BASE_DIR, 'data')
-NOTEBOOK_DIR = Path(BASE_DIR, 'notebooks')
-MODEL_DIR = Path(BASE_DIR, 'models')
-LOG_DIR = Path(BASE_DIR, 'logs')
-
+CONFIG_DIR = Path(BASE_DIR, "config")
+DATA_DIR = Path(BASE_DIR, "data")
+NOTEBOOK_DIR = Path(BASE_DIR, "notebooks")
+MODEL_DIR = Path(BASE_DIR, "models")
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 NOTEBOOK_DIR.mkdir(parents=True, exist_ok=True)
@@ -60,15 +61,7 @@ logging_config = {
     },
 }
 
-from rich.logging import RichHandler
+
 logging.config.dictConfig(logging_config)
 logger = logging.getLogger()
-logger.handlers[0] = RichHandler(markup=True)  # pretty formatting
-
-# Sample messages (note that we use configured `logger` now)
-logger.debug("Used for debugging your code.")
-logger.info("Informative messages from your code.")
-logger.warning("Everything works but there is something to be aware of.")
-logger.error("There's been a mistake with the process.")
-logger.critical("There is something terribly wrong and process may terminate.")
-
+logger.handlers[0] = RichHandler(markup=True)

@@ -1,0 +1,64 @@
+INFO 2023-05-10 14:36:38,716 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 14:36:38,720 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 14:36:38,724 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 14:36:38,728 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 14:36:38,747 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 14:36:55,160 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 14:36:55,165 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 14:36:55,168 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 14:36:55,172 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 14:36:55,186 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 14:37:27,659 [root:train.py:model1:55]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 14:37:27,661 [root:train.py:model1:56]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 14:38:05,613 [root:train.py:model2:87]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 14:38:05,616 [root:train.py:model2:88]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      0.99      1915
+           4       0.98      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
