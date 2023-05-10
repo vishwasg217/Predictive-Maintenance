@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/fd6fbca10b6547508eb5a7b80d40c1f3/artifacts
+end_time: 1683731989827
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd6fbca10b6547508eb5a7b80d40c1f3
+run_name: placid-smelt-231
+run_uuid: fd6fbca10b6547508eb5a7b80d40c1f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683731987667
+status: 3
+tags: []
+user_id: vishwasgowda

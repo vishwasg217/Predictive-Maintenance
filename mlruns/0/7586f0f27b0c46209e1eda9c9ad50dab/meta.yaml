@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7586f0f27b0c46209e1eda9c9ad50dab/artifacts
+deleted_time: 1683729088785
+end_time: 1683728508054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7586f0f27b0c46209e1eda9c9ad50dab
+run_name: chill-shrimp-254
+run_uuid: 7586f0f27b0c46209e1eda9c9ad50dab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683728508045
+status: 3
+tags: []
+user_id: vishwasgowda

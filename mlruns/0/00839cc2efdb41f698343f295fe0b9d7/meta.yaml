@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/00839cc2efdb41f698343f295fe0b9d7/artifacts
+end_time: 1683729218988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00839cc2efdb41f698343f295fe0b9d7
+run_name: whimsical-moose-491
+run_uuid: 00839cc2efdb41f698343f295fe0b9d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729217067
+status: 3
+tags: []
+user_id: vishwasgowda

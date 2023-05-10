@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ca848ab484884c1b8ae8dfb5d66a9dfd/artifacts
+end_time: 1683731863124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca848ab484884c1b8ae8dfb5d66a9dfd
+run_name: polite-cod-648
+run_uuid: ca848ab484884c1b8ae8dfb5d66a9dfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683731861128
+status: 3
+tags: []
+user_id: vishwasgowda

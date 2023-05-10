@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/0627adaf78e640588bfb0b9cd46b393b/artifacts
+deleted_time: 1683729088791
+end_time: 1683728112208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0627adaf78e640588bfb0b9cd46b393b
+run_name: popular-shad-688
+run_uuid: 0627adaf78e640588bfb0b9cd46b393b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683728080138
+status: 3
+tags: []
+user_id: vishwasgowda

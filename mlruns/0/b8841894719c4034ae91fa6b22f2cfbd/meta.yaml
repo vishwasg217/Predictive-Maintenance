@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b8841894719c4034ae91fa6b22f2cfbd/artifacts
+end_time: 1683732009834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b8841894719c4034ae91fa6b22f2cfbd
+run_name: resilient-skink-765
+run_uuid: b8841894719c4034ae91fa6b22f2cfbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683732008192
+status: 3
+tags: []
+user_id: vishwasgowda

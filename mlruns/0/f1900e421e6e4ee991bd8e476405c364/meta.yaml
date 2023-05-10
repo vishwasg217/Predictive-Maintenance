@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/f1900e421e6e4ee991bd8e476405c364/artifacts
+end_time: 1683732007858
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1900e421e6e4ee991bd8e476405c364
+run_name: wistful-swan-760
+run_uuid: f1900e421e6e4ee991bd8e476405c364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683732006210
+status: 3
+tags: []
+user_id: vishwasgowda

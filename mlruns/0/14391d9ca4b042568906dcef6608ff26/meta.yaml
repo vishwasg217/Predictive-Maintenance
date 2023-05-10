@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/14391d9ca4b042568906dcef6608ff26/artifacts
+deleted_time: 1683729088794
+end_time: 1683728515585
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 14391d9ca4b042568906dcef6608ff26
+run_name: calm-grouse-231
+run_uuid: 14391d9ca4b042568906dcef6608ff26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683728515577
+status: 3
+tags: []
+user_id: vishwasgowda

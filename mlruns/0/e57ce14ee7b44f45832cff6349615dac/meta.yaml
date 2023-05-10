@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e57ce14ee7b44f45832cff6349615dac/artifacts
+deleted_time: 1683729088783
+end_time: 1683728508388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e57ce14ee7b44f45832cff6349615dac
+run_name: sedate-grouse-394
+run_uuid: e57ce14ee7b44f45832cff6349615dac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683728508380
+status: 3
+tags: []
+user_id: vishwasgowda

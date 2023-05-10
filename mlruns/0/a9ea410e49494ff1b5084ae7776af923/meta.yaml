@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/a9ea410e49494ff1b5084ae7776af923/artifacts
+end_time: 1683729190347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9ea410e49494ff1b5084ae7776af923
+run_name: capable-deer-451
+run_uuid: a9ea410e49494ff1b5084ae7776af923
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729188373
+status: 3
+tags: []
+user_id: vishwasgowda

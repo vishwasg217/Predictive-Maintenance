@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/8f2be690e1834ed2bbfa5f407b38a00e/artifacts
+end_time: 1683731673258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f2be690e1834ed2bbfa5f407b38a00e
+run_name: hilarious-frog-658
+run_uuid: 8f2be690e1834ed2bbfa5f407b38a00e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683731673249
+status: 4
+tags: []
+user_id: vishwasgowda

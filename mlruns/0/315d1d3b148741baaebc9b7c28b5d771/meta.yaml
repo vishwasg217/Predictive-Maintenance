@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/315d1d3b148741baaebc9b7c28b5d771/artifacts
+deleted_time: 1683729088784
+end_time: 1683728492264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 315d1d3b148741baaebc9b7c28b5d771
+run_name: amazing-fawn-875
+run_uuid: 315d1d3b148741baaebc9b7c28b5d771
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683728492255
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/75cad2cf2054488fab9cbfd5d8cbc25f/artifacts
+end_time: 1683731891486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75cad2cf2054488fab9cbfd5d8cbc25f
+run_name: clean-dog-211
+run_uuid: 75cad2cf2054488fab9cbfd5d8cbc25f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683731889946
+status: 3
+tags: []
+user_id: vishwasgowda

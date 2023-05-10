@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/25834ded01aa4287b6bf77b207ddd74c/artifacts
+end_time: 1683729229159
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25834ded01aa4287b6bf77b207ddd74c
+run_name: useful-hare-647
+run_uuid: 25834ded01aa4287b6bf77b207ddd74c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729227506
+status: 3
+tags: []
+user_id: vishwasgowda

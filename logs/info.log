@@ -62,3 +62,372 @@ Classification Report:
 weighted avg       0.99      0.99      0.99     11583
 
 
+INFO 2023-05-10 19:24:00,692 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 19:24:00,697 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 19:24:00,700 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 19:24:00,704 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 19:24:00,722 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 19:25:52,275 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 19:25:52,280 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 19:25:52,283 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 19:25:52,287 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 19:25:52,301 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 19:26:27,556 [root:train.py:model1:69]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:26:27,558 [root:train.py:model1:70]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:27:05,351 [root:train.py:model2:104]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:27:05,353 [root:train.py:model2:105]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      1.00      1915
+           4       0.98      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:34:01,524 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 19:34:01,529 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 19:34:01,532 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 19:34:01,536 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 19:34:01,551 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 19:34:34,108 [root:train.py:model1:69]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:34:34,112 [root:train.py:model1:70]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:35:12,159 [root:train.py:model2:104]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:35:12,161 [root:train.py:model2:105]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      0.99      1915
+           4       0.98      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:44:39,635 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 19:44:39,640 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 19:44:39,644 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 19:44:39,647 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 19:44:39,666 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 19:45:12,203 [root:train.py:model1:69]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:45:12,205 [root:train.py:model1:70]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:45:49,463 [root:train.py:model2:104]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:45:49,465 [root:train.py:model2:105]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       0.99      1.00      1.00      1959
+           3       0.99      1.00      1.00      1915
+           4       0.98      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:51:31,656 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 19:51:31,661 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 19:51:31,664 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 19:51:31,667 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 19:51:31,684 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 19:52:02,916 [root:train.py:model1:69]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:52:02,918 [root:train.py:model1:70]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 19:52:39,989 [root:train.py:model2:104]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 19:52:39,990 [root:train.py:model2:105]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      1.00      1915
+           4       0.97      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 20:02:00,692 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 20:02:00,697 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 20:02:00,701 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 20:02:00,704 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 20:02:00,719 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 20:03:07,770 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 20:03:07,774 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 20:03:07,777 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 20:03:07,781 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 20:03:07,795 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 20:03:46,267 [root:train.py:model1:71]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 20:03:46,269 [root:train.py:model1:72]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 20:04:30,583 [root:train.py:model2:113]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 20:04:30,585 [root:train.py:model2:114]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       1.00      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      1.00      1915
+           4       0.97      1.00      0.99      1934
+           5       1.00      0.95      0.98      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 20:44:32,553 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 20:44:32,558 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 20:44:32,562 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 20:44:32,565 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 20:44:32,586 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 20:47:40,476 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 20:47:40,481 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 20:47:40,485 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 20:47:40,489 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 20:47:40,508 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 20:48:19,015 [root:train.py:model1:71]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 20:48:19,016 [root:train.py:model1:72]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 20:49:47,056 [root:data.py:create_target:41]
+Target variable created
+
+INFO 2023-05-10 20:49:47,061 [root:data.py:convert_to_celsius:50]
+Temperature converted to celsius
+
+INFO 2023-05-10 20:49:47,065 [root:data.py:ordinal_encoding:57]
+Type encoded
+
+INFO 2023-05-10 20:49:47,069 [root:data.py:feature_scaling:77]
+Features scaled
+
+INFO 2023-05-10 20:49:47,092 [root:data.py:sampling:87]
+Data sampled
+
+INFO 2023-05-10 20:50:26,413 [root:train.py:model1:71]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 20:50:26,415 [root:train.py:model1:72]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99      3873
+           1       0.99      1.00      0.99      7710
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+
+INFO 2023-05-10 20:51:11,596 [root:train.py:model2:113]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-10 20:51:11,598 [root:train.py:model2:114]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1880
+           1       0.99      1.00      1.00      1933
+           2       1.00      1.00      1.00      1959
+           3       0.99      1.00      0.99      1915
+           4       0.98      1.00      0.99      1934
+           5       1.00      0.95      0.97      1962
+
+    accuracy                           0.99     11583
+   macro avg       0.99      0.99      0.99     11583
+weighted avg       0.99      0.99      0.99     11583
+
+

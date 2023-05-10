@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d185c768703b4c27b66d8ffb45318003/artifacts
+end_time: 1683729121343
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d185c768703b4c27b66d8ffb45318003
+run_name: capable-newt-786
+run_uuid: d185c768703b4c27b66d8ffb45318003
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729121335
+status: 4
+tags: []
+user_id: vishwasgowda

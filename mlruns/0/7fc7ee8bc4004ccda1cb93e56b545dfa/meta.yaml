@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7fc7ee8bc4004ccda1cb93e56b545dfa/artifacts
+end_time: 1683732049425
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fc7ee8bc4004ccda1cb93e56b545dfa
+run_name: sassy-fowl-599
+run_uuid: 7fc7ee8bc4004ccda1cb93e56b545dfa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683732047871
+status: 3
+tags: []
+user_id: vishwasgowda

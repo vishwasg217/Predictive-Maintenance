@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/673b9766545845e09f29a396f99585f9/artifacts
+end_time: 1683729209941
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 673b9766545845e09f29a396f99585f9
+run_name: persistent-fly-496
+run_uuid: 673b9766545845e09f29a396f99585f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729208428
+status: 3
+tags: []
+user_id: vishwasgowda

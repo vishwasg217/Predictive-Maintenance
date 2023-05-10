@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/caefdfe00ce145ebbdc58a9b01845e19/artifacts
+end_time: 1683729249997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: caefdfe00ce145ebbdc58a9b01845e19
+run_name: agreeable-ant-581
+run_uuid: caefdfe00ce145ebbdc58a9b01845e19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729248337
+status: 3
+tags: []
+user_id: vishwasgowda

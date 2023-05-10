@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/0cd808be291145d782add24f9648cca6/artifacts
+end_time: 1683732061521
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0cd808be291145d782add24f9648cca6
+run_name: clean-kite-709
+run_uuid: 0cd808be291145d782add24f9648cca6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683732059508
+status: 3
+tags: []
+user_id: vishwasgowda

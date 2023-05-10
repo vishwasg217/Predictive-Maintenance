@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/65c77e2b07ee487099b57fc1e84f6209/artifacts
+end_time: 1683729247915
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65c77e2b07ee487099b57fc1e84f6209
+run_name: trusting-mule-868
+run_uuid: 65c77e2b07ee487099b57fc1e84f6209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729246036
+status: 3
+tags: []
+user_id: vishwasgowda

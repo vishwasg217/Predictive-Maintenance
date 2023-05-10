@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/fe53c5ee2f2e4f988daf99968c123041/artifacts
+end_time: 1683729261203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe53c5ee2f2e4f988daf99968c123041
+run_name: secretive-slug-129
+run_uuid: fe53c5ee2f2e4f988daf99968c123041
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683729259589
+status: 3
+tags: []
+user_id: vishwasgowda
