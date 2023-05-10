@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1ea2269808ec41a0a789a91b84d00e9d/artifacts
+end_time: 1683738612543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ea2269808ec41a0a789a91b84d00e9d
+run_name: luxuriant-bat-653
+run_uuid: 1ea2269808ec41a0a789a91b84d00e9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683738610661
+status: 3
+tags: []
+user_id: vishwasgowda

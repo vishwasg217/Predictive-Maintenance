@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e17ba792c12c420a9871eb7b59c984c3/artifacts
+end_time: 1683743376696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e17ba792c12c420a9871eb7b59c984c3
+run_name: gifted-mule-610
+run_uuid: e17ba792c12c420a9871eb7b59c984c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743375179
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ab55d320f3564c0b977e7200b37600ea/artifacts
+end_time: 1683742962854
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab55d320f3564c0b977e7200b37600ea
+run_name: incongruous-gnu-605
+run_uuid: ab55d320f3564c0b977e7200b37600ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742961310
+status: 3
+tags: []
+user_id: vishwasgowda

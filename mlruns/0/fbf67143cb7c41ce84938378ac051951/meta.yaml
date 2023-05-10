@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/fbf67143cb7c41ce84938378ac051951/artifacts
+end_time: 1683743679402
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbf67143cb7c41ce84938378ac051951
+run_name: hilarious-yak-348
+run_uuid: fbf67143cb7c41ce84938378ac051951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743677436
+status: 3
+tags: []
+user_id: vishwasgowda

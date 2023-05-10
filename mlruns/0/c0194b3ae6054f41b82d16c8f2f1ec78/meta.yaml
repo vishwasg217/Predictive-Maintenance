@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/c0194b3ae6054f41b82d16c8f2f1ec78/artifacts
+end_time: 1683743731931
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0194b3ae6054f41b82d16c8f2f1ec78
+run_name: orderly-dog-857
+run_uuid: c0194b3ae6054f41b82d16c8f2f1ec78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743730375
+status: 3
+tags: []
+user_id: vishwasgowda

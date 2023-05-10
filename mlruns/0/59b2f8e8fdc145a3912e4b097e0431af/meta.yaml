@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/59b2f8e8fdc145a3912e4b097e0431af/artifacts
+end_time: 1683743348401
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59b2f8e8fdc145a3912e4b097e0431af
+run_name: orderly-grub-410
+run_uuid: 59b2f8e8fdc145a3912e4b097e0431af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743346841
+status: 3
+tags: []
+user_id: vishwasgowda

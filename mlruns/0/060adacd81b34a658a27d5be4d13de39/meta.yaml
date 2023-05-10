@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/060adacd81b34a658a27d5be4d13de39/artifacts
+end_time: 1683743358519
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 060adacd81b34a658a27d5be4d13de39
+run_name: puzzled-foal-801
+run_uuid: 060adacd81b34a658a27d5be4d13de39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743356998
+status: 3
+tags: []
+user_id: vishwasgowda

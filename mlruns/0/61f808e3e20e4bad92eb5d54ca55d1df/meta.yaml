@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/61f808e3e20e4bad92eb5d54ca55d1df/artifacts
+end_time: 1683743319981
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61f808e3e20e4bad92eb5d54ca55d1df
+run_name: awesome-croc-187
+run_uuid: 61f808e3e20e4bad92eb5d54ca55d1df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743318008
+status: 3
+tags: []
+user_id: vishwasgowda

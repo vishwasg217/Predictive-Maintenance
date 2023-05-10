@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7bf6f91b37da4c288f70682eacfbbece/artifacts
+end_time: 1683738614503
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bf6f91b37da4c288f70682eacfbbece
+run_name: traveling-bug-559
+run_uuid: 7bf6f91b37da4c288f70682eacfbbece
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683738612880
+status: 3
+tags: []
+user_id: vishwasgowda

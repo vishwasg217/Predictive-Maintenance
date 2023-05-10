@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/354ddf3cba374be386ec76284d1e21fa/artifacts
+end_time: 1683743697721
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 354ddf3cba374be386ec76284d1e21fa
+run_name: ambitious-moth-707
+run_uuid: 354ddf3cba374be386ec76284d1e21fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743696097
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3cec6b7ceecb4b8391da15ed93ad93fb/artifacts
+end_time: 1683742991301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3cec6b7ceecb4b8391da15ed93ad93fb
+run_name: luxuriant-shrike-310
+run_uuid: 3cec6b7ceecb4b8391da15ed93ad93fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742989688
+status: 3
+tags: []
+user_id: vishwasgowda

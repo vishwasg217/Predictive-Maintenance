@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/6571f9bbf27c41958336a2cb7b1d72e7/artifacts
+end_time: 1683743337577
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6571f9bbf27c41958336a2cb7b1d72e7
+run_name: wise-mare-299
+run_uuid: 6571f9bbf27c41958336a2cb7b1d72e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743335829
+status: 3
+tags: []
+user_id: vishwasgowda

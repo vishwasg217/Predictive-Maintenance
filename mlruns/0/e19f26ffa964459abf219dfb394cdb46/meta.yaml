@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e19f26ffa964459abf219dfb394cdb46/artifacts
+end_time: 1683742952166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e19f26ffa964459abf219dfb394cdb46
+run_name: amazing-seal-977
+run_uuid: e19f26ffa964459abf219dfb394cdb46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742950520
+status: 3
+tags: []
+user_id: vishwasgowda

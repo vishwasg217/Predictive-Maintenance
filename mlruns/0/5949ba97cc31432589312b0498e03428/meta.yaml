@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/5949ba97cc31432589312b0498e03428/artifacts
+end_time: 1683743729959
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5949ba97cc31432589312b0498e03428
+run_name: learned-whale-974
+run_uuid: 5949ba97cc31432589312b0498e03428
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743728232
+status: 3
+tags: []
+user_id: vishwasgowda

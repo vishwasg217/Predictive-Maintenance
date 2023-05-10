@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/110dd8d0869b4da685bab1daec309ee4/artifacts
+end_time: 1683743708535
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 110dd8d0869b4da685bab1daec309ee4
+run_name: delicate-moose-219
+run_uuid: 110dd8d0869b4da685bab1daec309ee4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743706982
+status: 3
+tags: []
+user_id: vishwasgowda

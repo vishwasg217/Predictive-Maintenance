@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3ee01eec3ef644dba1eadab5e98c9943/artifacts
+end_time: 1683742993190
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ee01eec3ef644dba1eadab5e98c9943
+run_name: dapper-gull-66
+run_uuid: 3ee01eec3ef644dba1eadab5e98c9943
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742991702
+status: 3
+tags: []
+user_id: vishwasgowda

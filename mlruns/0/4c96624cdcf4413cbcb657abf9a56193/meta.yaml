@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/4c96624cdcf4413cbcb657abf9a56193/artifacts
+end_time: 1683743743164
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c96624cdcf4413cbcb657abf9a56193
+run_name: worried-dolphin-666
+run_uuid: 4c96624cdcf4413cbcb657abf9a56193
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743741444
+status: 3
+tags: []
+user_id: vishwasgowda

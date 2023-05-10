@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/56e79a64b5a7499785483ce7082a746c/artifacts
+end_time: 1683743699592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56e79a64b5a7499785483ce7082a746c
+run_name: stately-hare-161
+run_uuid: 56e79a64b5a7499785483ce7082a746c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743698054
+status: 3
+tags: []
+user_id: vishwasgowda

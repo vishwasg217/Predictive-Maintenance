@@ -36,7 +36,7 @@ def model1(df: pd.DataFrame):
 
 
     for i, m in enumerate(models):
-        m.fit(X_train, y_train)
+        m.fit(X_train.values, y_train.values)
         y_pred = m.predict(X_test)
         acc = accuracy_score(y_test, y_pred) * 100
         prec = precision_score(y_test, y_pred) * 100
@@ -60,13 +60,8 @@ def model1(df: pd.DataFrame):
     best_model_idx = scores_df["F1"].idxmax()
     best_model = models[best_model_idx]
 
-    # mlflow.sklearn.log_model(best_model, "best_model")
-
-    best_model.fit(X_train, y_train)
     y_pred = best_model.predict(X_test)
     report = classification_report(y_test, y_pred)
-
-    # mlflow.log_text('Classification Report', report)
 
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
@@ -83,7 +78,7 @@ def model2(df: pd.DataFrame):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     for i, m in enumerate(models):
-        m.fit(X_train, y_train)
+        m.fit(X_train.values, y_train.values)
         y_pred = m.predict(X_test)
         acc = accuracy_score(y_test, y_pred) * 100
         prec = precision_score(y_test, y_pred, average="macro") * 100
@@ -107,8 +102,8 @@ def model2(df: pd.DataFrame):
 
     best_model_idx = scores_df["F1"].idxmax()
     best_model = models[best_model_idx]
-    best_model.fit(X_train, y_train)
     y_pred = best_model.predict(X_test)
+
     report = classification_report(y_test, y_pred)
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")

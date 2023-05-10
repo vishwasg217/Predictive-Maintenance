@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/561ca56224ef4f4387972ff993764095/artifacts
+end_time: 1683738623656
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 561ca56224ef4f4387972ff993764095
+run_name: serious-snake-710
+run_uuid: 561ca56224ef4f4387972ff993764095
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683738622069
+status: 3
+tags: []
+user_id: vishwasgowda

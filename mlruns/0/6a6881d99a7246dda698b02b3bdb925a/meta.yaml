@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/6a6881d99a7246dda698b02b3bdb925a/artifacts
+end_time: 1683738666264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a6881d99a7246dda698b02b3bdb925a
+run_name: clumsy-dove-876
+run_uuid: 6a6881d99a7246dda698b02b3bdb925a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683738664536
+status: 3
+tags: []
+user_id: vishwasgowda

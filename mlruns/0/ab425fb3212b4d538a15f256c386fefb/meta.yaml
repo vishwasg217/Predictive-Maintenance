@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ab425fb3212b4d538a15f256c386fefb/artifacts
+end_time: 1683738652924
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab425fb3212b4d538a15f256c386fefb
+run_name: caring-pig-827
+run_uuid: ab425fb3212b4d538a15f256c386fefb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683738651145
+status: 3
+tags: []
+user_id: vishwasgowda

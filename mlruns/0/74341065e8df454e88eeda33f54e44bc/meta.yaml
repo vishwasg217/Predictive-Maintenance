@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/74341065e8df454e88eeda33f54e44bc/artifacts
+end_time: 1683742934403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74341065e8df454e88eeda33f54e44bc
+run_name: charming-chimp-223
+run_uuid: 74341065e8df454e88eeda33f54e44bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742932410
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b9dffc77e9b8434998389b04d0ffc35f/artifacts
+end_time: 1683743004493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9dffc77e9b8434998389b04d0ffc35f
+run_name: bold-snail-896
+run_uuid: b9dffc77e9b8434998389b04d0ffc35f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743002746
+status: 3
+tags: []
+user_id: vishwasgowda

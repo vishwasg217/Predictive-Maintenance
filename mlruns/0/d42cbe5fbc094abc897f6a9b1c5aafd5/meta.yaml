@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d42cbe5fbc094abc897f6a9b1c5aafd5/artifacts
+end_time: 1683742973048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d42cbe5fbc094abc897f6a9b1c5aafd5
+run_name: classy-goose-449
+run_uuid: d42cbe5fbc094abc897f6a9b1c5aafd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683742971444
+status: 3
+tags: []
+user_id: vishwasgowda

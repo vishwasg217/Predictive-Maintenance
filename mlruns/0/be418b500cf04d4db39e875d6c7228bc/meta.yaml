@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/be418b500cf04d4db39e875d6c7228bc/artifacts
+end_time: 1683743711276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be418b500cf04d4db39e875d6c7228bc
+run_name: trusting-snipe-210
+run_uuid: be418b500cf04d4db39e875d6c7228bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743709813
+status: 3
+tags: []
+user_id: vishwasgowda

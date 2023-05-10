@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/07ab7c23689843f189256569dcb983cd/artifacts
+end_time: 1683743378614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07ab7c23689843f189256569dcb983cd
+run_name: serious-toad-978
+run_uuid: 07ab7c23689843f189256569dcb983cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683743377101
+status: 3
+tags: []
+user_id: vishwasgowda
