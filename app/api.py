@@ -28,9 +28,10 @@ def predict(data: User):
     air_temp = received['air_temp']
     process_temp = received['process_temp']
 
-    result = prediction(type, rpm, torque, tool_wear, air_temp, process_temp)
+    result1, result2 = prediction(type, rpm, torque, tool_wear, air_temp, process_temp)
 
-    return {"prediction": result}
+    return {"Machine Failure? ": result1,
+            "Type of Failure: ": result2}
 
 
 if __name__ == "__main__":
