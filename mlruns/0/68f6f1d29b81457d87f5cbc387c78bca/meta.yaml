@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/68f6f1d29b81457d87f5cbc387c78bca/artifacts
+end_time: 1683618940610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 68f6f1d29b81457d87f5cbc387c78bca
+run_name: crawling-ant-785
+run_uuid: 68f6f1d29b81457d87f5cbc387c78bca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683618927483
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/a423ee5cb7374453b8369aa1108a9f2a/artifacts
+end_time: 1683619431722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a423ee5cb7374453b8369aa1108a9f2a
+run_name: powerful-vole-433
+run_uuid: a423ee5cb7374453b8369aa1108a9f2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683619419132
+status: 3
+tags: []
+user_id: vishwasgowda
