@@ -1,0 +1,9 @@
+ERROR 2023-05-11 11:46:56,176 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+
+ERROR 2023-05-11 11:47:52,343 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+
+ERROR 2023-05-11 11:47:53,670 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+

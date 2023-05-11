@@ -676,3 +676,114 @@ Classification Report:
 weighted avg       0.99      0.99      0.99     11583
 
 
+INFO 2023-05-11 11:40:33,131 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:40:37,736 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:40:38,573 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:40:44,319 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:40:44,339 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:40:45,252 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:40:45,270 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:40:46,102 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:40:46,120 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:41:15,901 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:17,635 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:18,324 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:41:19,550 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:19,569 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:41:41,117 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:42,333 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:43,517 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:41:44,782 [root:HOME.py:<module>:39]
+Input taken from user
+
+INFO 2023-05-11 11:41:44,801 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:12,157 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:12,192 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:13,645 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:13,910 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:14,278 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:45:59,904 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:46:00,877 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:46:01,809 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:46:56,164 [root:predict.py:prediction:31]
+Type conversion and scaling while prediction done
+
+ERROR 2023-05-11 11:46:56,176 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+
+ERROR 2023-05-11 11:47:52,343 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+
+ERROR 2023-05-11 11:47:53,670 [root:HOME.py:<module>:62]
+Failed to get prediction from API: 500 - Internal Server Error
+
+INFO 2023-05-11 11:49:09,142 [root:predict.py:prediction:32]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:49:42,732 [root:predict.py:prediction:32]
+Type conversion and scaling while prediction done
+
+INFO 2023-05-11 11:52:40,959 [root:HOME.py:<module>:59]
+Prediction received from API
+
+INFO 2023-05-11 11:53:32,198 [root:HOME.py:<module>:59]
+Prediction received from API
+
+INFO 2023-05-11 11:57:09,226 [root:HOME.py:<module>:61]
+Prediction received from API
+
+INFO 2023-05-11 11:58:12,707 [root:HOME.py:<module>:61]
+Prediction received from API
+

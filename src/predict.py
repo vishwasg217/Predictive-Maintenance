@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from pathlib import Path
-from config.config import ARTIFACTS_DIR
+from config.config import ARTIFACTS_DIR, logger
 
 def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
     with open(Path(ARTIFACTS_DIR,'model1.pkl'), 'rb') as f:
@@ -28,6 +28,8 @@ def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
     scaled_input = scaler.transform([[rpm, torque, tool_wear, air_temp, process_temp]])
     rpm, torque, tool_wear, air_temp, process_temp = scaled_input[0]
 
+    # print(rpm, torque, tool_wear, air_temp, process_temp)
+
     prediction1 = model1.predict([[type, rpm, torque, tool_wear, air_temp, process_temp]])
 
     if prediction1[0] == 0:
@@ -46,11 +48,9 @@ def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
                 5: 'No Failure'}
     
     result2 = encoding[prediction2]
-
-    # print(result1, result2)
     return result1, result2
 
-# prediction('Low', 1410.0,65.70,191.00,25.75,35.85)
+prediction('Low', 1410.0,65.70,191.00,25.75,35.85)
 
 # Type                          0.00
 # Rotational speed [rpm]     1410.00

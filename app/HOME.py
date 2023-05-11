@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import requests
+from config.config import logger
 
 app_url = "http://localhost:8000"
 endpoint = "/predict"
@@ -12,11 +13,13 @@ st.title('Predictive Maintenance')
 
 st.write('Please enter the following parameters')
 
+sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
+
 st.write('Sample input: ')
-st.write('Low', 'RPM',1410,'Torque',65.70,'Tool Wear',191.00,'Air Temperature',25.75,'Process Temperature',35.85)
+st.write('Type: ',sample_data[0], 'RPM: ',sample_data[1],'Torque: ',sample_data[2],'Tool Wear: ',sample_data[3],'Air Temperature: ',sample_data[4],'Process Temperature: ',sample_data[5])
 st.write('Sample Output: ')
-st.write('Machine Failure? Machine Failure')
-st.write('Type of Machine Failure: Power Failure')
+st.write('Machine Failure? ', sample_data[6])
+st.write('Type of Machine Failure: ', sample_data[7])
 
 st.divider()
 
@@ -35,6 +38,8 @@ st.write('The current value of Air Temperature is', air_temp)
 process_temp = st.number_input('Process Temperature: ')
 st.write('The current value of Process Temperature is', process_temp)
 
+# logger.info('Input taken from user')
+
 data = {
     "type": type_of_machine,
     "rpm": rpm,
@@ -43,16 +48,21 @@ data = {
     "air_temp": air_temp,
     "process_temp": process_temp
 }
-json_data = json.dumps(data)
+# json_data = json.dumps(data)
 
-def get_prediction():
-    response = requests.post(model_url, json=data)
-    response = json.loads(response.text)
-    st.write('Machine Failure?  ', response['Machine Failure? '])
-    st.write('Type of Failure: ', response['Type of Failure: '])    
+    
 
 if st.button("Predict"):
-    get_prediction()
+    response = requests.post(model_url, json=data)
+    if response.ok:
+        response_json = response.json()
+        st.write('Machine Failure?  ', response_json.get('Machine Failure? '))
+        st.write('Type of Failure: ', response_json.get('Type of Failure: ')) 
+        logger.info('Prediction received from API')
+    else:
+        st.write('Error:', response.status_code, response.text)
+        logger.error('Failed to get prediction from API: %s - %s', response.status_code, response.text)
+    # logger.info('Prediction revieved from API')  
         
 
 

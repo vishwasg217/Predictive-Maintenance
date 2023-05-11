@@ -63,7 +63,7 @@ def model1(df: pd.DataFrame):
     y_pred = best_model.predict(X_test)
     report = classification_report(y_test, y_pred)
 
-    logger.info('MODEL 1')
+    logger.info('MODEL 1L ')
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
@@ -109,7 +109,7 @@ def model2(df: pd.DataFrame):
 
     report = classification_report(y_test, y_pred)
 
-    logger.info('MODEL 2')
+    logger.info('MODEL 2: ')
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
