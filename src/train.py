@@ -63,6 +63,7 @@ def model1(df: pd.DataFrame):
     y_pred = best_model.predict(X_test)
     report = classification_report(y_test, y_pred)
 
+    logger.info('MODEL 1')
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
@@ -92,6 +93,8 @@ def model2(df: pd.DataFrame):
             mlflow.log_metric("Precision", prec)
             mlflow.log_metric("Recall", rec)
             mlflow.log_metric("F1", f1)
+        
+        logger.info(f'model {i} logged to mlflow')
 
     scores_df = pd.DataFrame(
         columns=["Model"], data=["Logistic Regression", "SVC", "Decision Tree", "Random Forest"]
@@ -105,6 +108,8 @@ def model2(df: pd.DataFrame):
     y_pred = best_model.predict(X_test)
 
     report = classification_report(y_test, y_pred)
+
+    logger.info('MODEL 2')
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
