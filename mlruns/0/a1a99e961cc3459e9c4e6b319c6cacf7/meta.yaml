@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/a1a99e961cc3459e9c4e6b319c6cacf7/artifacts
+end_time: 1683782705060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1a99e961cc3459e9c4e6b319c6cacf7
+run_name: gaudy-colt-271
+run_uuid: a1a99e961cc3459e9c4e6b319c6cacf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782703460
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,5 +1,6 @@
 import warnings
 from pathlib import Path
+import pickle
 
 import numpy as np
 import pandas as pd
@@ -14,6 +15,7 @@ from sklearn.preprocessing import (
 )
 
 from config.config import logger
+from config.config import ARTIFACTS_DIR
 
 warnings.filterwarnings("ignore")
 
@@ -68,6 +70,11 @@ def feature_scaling(df: pd.DataFrame) -> pd.DataFrame:
         "Process temperature [c]",
     ]
     df_scaled = scaler.fit_transform(df[scale_cols])
+
+    with open(Path(ARTIFACTS_DIR, "scaler.pkl"), "wb") as f:
+        pickle.dump(scaler, f)
+
+
     df_scaled = pd.DataFrame(df_scaled)
     df_scaled.columns = scale_cols
 

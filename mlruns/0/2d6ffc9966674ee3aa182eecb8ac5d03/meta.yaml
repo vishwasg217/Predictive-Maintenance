@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2d6ffc9966674ee3aa182eecb8ac5d03/artifacts
+end_time: 1683782671951
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d6ffc9966674ee3aa182eecb8ac5d03
+run_name: puzzled-shrimp-296
+run_uuid: 2d6ffc9966674ee3aa182eecb8ac5d03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782670168
+status: 3
+tags: []
+user_id: vishwasgowda

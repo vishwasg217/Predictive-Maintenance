@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e8f10c0b87f245758bdc6d10e075ab65/artifacts
+end_time: 1683782669824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8f10c0b87f245758bdc6d10e075ab65
+run_name: redolent-wolf-873
+run_uuid: e8f10c0b87f245758bdc6d10e075ab65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782668025
+status: 3
+tags: []
+user_id: vishwasgowda

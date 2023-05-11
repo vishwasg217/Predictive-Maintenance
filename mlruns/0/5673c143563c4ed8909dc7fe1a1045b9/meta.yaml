@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/5673c143563c4ed8909dc7fe1a1045b9/artifacts
+end_time: 1683782684534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5673c143563c4ed8909dc7fe1a1045b9
+run_name: welcoming-mare-820
+run_uuid: 5673c143563c4ed8909dc7fe1a1045b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782682833
+status: 3
+tags: []
+user_id: vishwasgowda

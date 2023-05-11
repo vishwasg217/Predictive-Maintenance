@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 
 from config import config
-from config.config import MODEL_DIR
+from config.config import ARTIFACTS_DIR
 from data import (
     convert_to_celsius,
     create_target,
@@ -44,7 +44,7 @@ def train():
     print(best_model)
     print("Classification report")
     print(report)
-    with open(Path(MODEL_DIR, "model1.pkl"), "wb") as f:
+    with open(Path(ARTIFACTS_DIR, "model1.pkl"), "wb") as f:
         pickle.dump(best_model, f)
 
     scores_df, best_model, report = model2(df)
@@ -55,7 +55,7 @@ def train():
     print("Classification report")
     print(report)
 
-    with open(Path(MODEL_DIR, "model2.pkl"), "wb") as f:
+    with open(Path(ARTIFACTS_DIR, "model2.pkl"), "wb") as f:
         pickle.dump(best_model, f)
 
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/33c2bc2404544315828fffb202073016/artifacts
+end_time: 1683782681122
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33c2bc2404544315828fffb202073016
+run_name: incongruous-crab-73
+run_uuid: 33c2bc2404544315828fffb202073016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782679471
+status: 3
+tags: []
+user_id: vishwasgowda

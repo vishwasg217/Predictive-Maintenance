@@ -2,15 +2,16 @@ import pandas as pd
 import numpy as np
 import pickle
 from pathlib import Path
-from config.config import MODEL_DIR
+from config.config import ARTIFACTS_DIR
 
 def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
-    with open(Path(MODEL_DIR,'model1.pkl'), 'rb') as f:
+    with open(Path(ARTIFACTS_DIR,'model1.pkl'), 'rb') as f:
         model1 = pickle.load(f)
 
-    with open(Path(MODEL_DIR,'model2.pkl'), 'rb') as f:
+    with open(Path(ARTIFACTS_DIR,'model2.pkl'), 'rb') as f:
         model2 = pickle.load(f)
 
+    # type preprocessing
     if type == 'Low':
         type = int(0)
     elif type == 'Medium':
@@ -19,6 +20,13 @@ def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
         type = int(2)
 
     type = float(type)
+
+
+    # min max scaler
+    with open(Path(ARTIFACTS_DIR, 'scaler.pkl'), 'rb') as f:
+        scaler = pickle.load(f)
+    scaled_input = scaler.transform([[rpm, torque, tool_wear, air_temp, process_temp]])
+    rpm, torque, tool_wear, air_temp, process_temp = scaled_input[0]
 
     prediction1 = model1.predict([[type, rpm, torque, tool_wear, air_temp, process_temp]])
 
@@ -39,7 +47,16 @@ def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
     
     result2 = encoding[prediction2]
 
-    print(result1, result2)
+    # print(result1, result2)
     return result1, result2
 
-# prediction('M', 0.175738,0.477421,0.823187,0.363062,0.352309)
+# prediction('Low', 1410.0,65.70,191.00,25.75,35.85)
+
+# Type                          0.00
+# Rotational speed [rpm]     1410.00
+# Torque [Nm]                  65.70
+# Tool wear [min]             191.00
+# Machine failure               1.00
+# type_of_failure               2.00
+# Air temperature [c]          25.75
+# Process temperature [c]      35.85

@@ -9,11 +9,11 @@ BASE_DIR = Path(__file__).parent.parent.absolute()
 CONFIG_DIR = Path(BASE_DIR, "config")
 DATA_DIR = Path(BASE_DIR, "data")
 NOTEBOOK_DIR = Path(BASE_DIR, "notebooks")
-MODEL_DIR = Path(BASE_DIR, "models")
+ARTIFACTS_DIR = Path(BASE_DIR, "artifacts")
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 NOTEBOOK_DIR.mkdir(parents=True, exist_ok=True)
-MODEL_DIR.mkdir(parents=True, exist_ok=True)
+ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 RAW_DATA_URL = "https://github.com/vishwasg217/Predictive-Maintenance/blob/main/data/raw/data.csv"

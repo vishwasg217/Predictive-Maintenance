@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2714ce0249f24285a6c19d0a79e97e91/artifacts
+end_time: 1683782716591
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2714ce0249f24285a6c19d0a79e97e91
+run_name: upbeat-fawn-224
+run_uuid: 2714ce0249f24285a6c19d0a79e97e91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782714641
+status: 3
+tags: []
+user_id: vishwasgowda

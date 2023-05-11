@@ -12,6 +12,14 @@ st.title('Predictive Maintenance')
 
 st.write('Please enter the following parameters')
 
+st.write('Sample input: ')
+st.write('Low', 'RPM',1410,'Torque',65.70,'Tool Wear',191.00,'Air Temperature',25.75,'Process Temperature',35.85)
+st.write('Sample Output: ')
+st.write('Machine Failure? Machine Failure')
+st.write('Type of Machine Failure: Power Failure')
+
+st.divider()
+
 type_of_machine = st.selectbox('Type', ['Low', 'Medium', 'High'])
 
 type_of_machine = str(type_of_machine)
@@ -37,10 +45,14 @@ data = {
 }
 json_data = json.dumps(data)
 
+def get_prediction():
+    response = requests.post(model_url, json=data)
+    response = json.loads(response.text)
+    st.write('Machine Failure?  ', response['Machine Failure? '])
+    st.write('Type of Failure: ', response['Type of Failure: '])    
+
 if st.button("Predict"):
-        response = requests.post(model_url, json=data)
-        response = json.loads(response.text)
-        st.write('Machine Failure?  ', response['Machine Failure? '])
-        st.write('Type of Failure: ', response['Type of Failure: '])
+    get_prediction()
+        
 
 

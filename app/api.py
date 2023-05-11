@@ -4,7 +4,7 @@ from app.model import User
 from pathlib import Path
 import pickle
 
-from config.config import MODEL_DIR
+from config.config import ARTIFACTS_DIR
 from src.predict import prediction
 
 app = FastAPI()

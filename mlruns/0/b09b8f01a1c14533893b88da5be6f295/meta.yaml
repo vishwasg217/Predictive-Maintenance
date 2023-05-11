@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b09b8f01a1c14533893b88da5be6f295/artifacts
+end_time: 1683782703049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b09b8f01a1c14533893b88da5be6f295
+run_name: bold-whale-772
+run_uuid: b09b8f01a1c14533893b88da5be6f295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683782701431
+status: 3
+tags: []
+user_id: vishwasgowda
