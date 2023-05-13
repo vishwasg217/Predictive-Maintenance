@@ -38,7 +38,6 @@ st.write('The current value of Air Temperature is', air_temp)
 process_temp = st.number_input('Process Temperature: ')
 st.write('The current value of Process Temperature is', process_temp)
 
-# logger.info('Input taken from user')
 
 data = {
     "type": type_of_machine,
@@ -48,7 +47,6 @@ data = {
     "air_temp": air_temp,
     "process_temp": process_temp
 }
-# json_data = json.dumps(data)
 
     
 
@@ -58,11 +56,9 @@ if st.button("Predict"):
         response_json = response.json()
         st.write('Machine Failure?  ', response_json.get('Machine Failure? '))
         st.write('Type of Failure: ', response_json.get('Type of Failure: ')) 
-        # logger.info('Prediction received from API')
     else:
         st.write('Error:', response.status_code, response.text)
-        # logger.error('Failed to get prediction from API: %s - %s', response.status_code, response.text)
-    # logger.info('Prediction revieved from API')  
+         
         
 
 

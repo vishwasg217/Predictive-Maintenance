@@ -95,7 +95,6 @@ pickleshare==0.7.5
 Pillow==9.5.0
 platformdirs==3.5.0
 plotly==5.14.1
--e git+https://github.com/vishwasg217/Predictive-Maintenance.git@c96a7e7974f162a99fa97b5591db47e4cbc3cae1#egg=Predictive_Maintenance
 pretty-errors==1.2.25
 prometheus-client==0.16.0
 prompt-toolkit==3.0.38

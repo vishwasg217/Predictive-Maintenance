@@ -1,27 +1,29 @@
 import uvicorn
 from fastapi import FastAPI
-from app.model import User
+from backend.model import User
 
 
 from src.predict import prediction
+print('after import')
+appl = FastAPI()
 
-app = FastAPI()
 
 
-@app.get("/")
+@appl.get("/")
 def index():
     return {"message": "Hello, World"}
 
-@app.get('/Welcome')
+@appl.get('/Welcome')
 def get_name(name: str):
     return {"Welcome": f"{name}"}
 
-@app.post('/predict')
+@appl.post('/predict')
 def predict(data: User):
     received = data.dict()
     type = received['type']
     rpm = received['rpm']
     torque = received['torque']
+    
     tool_wear = received['tool_wear']
     air_temp = received['air_temp']
     process_temp = received['process_temp']
@@ -34,5 +36,5 @@ def predict(data: User):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(appl, host="0.0.0.0", port=8000)
 
