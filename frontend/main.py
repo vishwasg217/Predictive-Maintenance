@@ -15,11 +15,11 @@ st.write('Please enter the following parameters')
 
 sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
 
-st.write('Sample input: ')
-st.write('Type: ',sample_data[0], 'RPM: ',sample_data[1],'Torque: ',sample_data[2],'Tool Wear: ',sample_data[3],'Air Temperature: ',sample_data[4],'Process Temperature: ',sample_data[5])
-st.write('Sample Output: ')
-st.write('Machine Failure? ', sample_data[6])
-st.write('Type of Machine Failure: ', sample_data[7])
+# st.write('Sample input: ')
+# st.write('Type: ',sample_data[0], 'RPM: ',sample_data[1],'Torque: ',sample_data[2],'Tool Wear: ',sample_data[3],'Air Temperature: ',sample_data[4],'Process Temperature: ',sample_data[5])
+# st.write('Sample Output: ')
+# st.write('Machine Failure? ', sample_data[6])
+# st.write('Type of Machine Failure: ', sample_data[7])
 
 st.divider()
 
@@ -27,15 +27,15 @@ type_of_machine = st.selectbox('Type', ['Low', 'Medium', 'High'])
 
 type_of_machine = str(type_of_machine)
 
-rpm = st.number_input('RPM: ', )
+rpm = st.number_input('RPM: ', value=sample_data[1])
 st.write('The current value of RPM is', rpm)
-torque = st.number_input('Torque: ')    
+torque = st.number_input('Torque: ', value=sample_data[2])    
 st.write('The current value of Torque is', torque)
-tool_wear = st.number_input('Tool Wear: ')
+tool_wear = st.number_input('Tool Wear: ', value=sample_data[3])
 st.write('The current value of Tool Wear is', tool_wear)
-air_temp = st.number_input('Air Temperature: ')
+air_temp = st.number_input('Air Temperature: ', value=sample_data[4])
 st.write('The current value of Air Temperature is', air_temp)
-process_temp = st.number_input('Process Temperature: ')
+process_temp = st.number_input('Process Temperature: ', value=sample_data[5])
 st.write('The current value of Process Temperature is', process_temp)
 
 
