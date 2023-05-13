@@ -5,7 +5,7 @@ import streamlit as st
 import requests
 # from config.config import logger
 
-app_url = "http://localhost:8000"
+app_url = "http://fastapi:8000"
 endpoint = "/predict"
 model_url = f"{app_url}{endpoint}"
 
@@ -27,7 +27,7 @@ type_of_machine = st.selectbox('Type', ['Low', 'Medium', 'High'])
 
 type_of_machine = str(type_of_machine)
 
-rpm = st.number_input('RPM: ')
+rpm = st.number_input('RPM: ', )
 st.write('The current value of RPM is', rpm)
 torque = st.number_input('Torque: ')    
 st.write('The current value of Torque is', torque)
