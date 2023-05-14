@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/180dac4c920b40f8b61511beb6c5b648/artifacts
+end_time: 1684094158579
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 180dac4c920b40f8b61511beb6c5b648
+run_name: legendary-stag-523
+run_uuid: 180dac4c920b40f8b61511beb6c5b648
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684094156696
+status: 3
+tags: []
+user_id: vishwasgowda

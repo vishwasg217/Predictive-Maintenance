@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/91891d23eb644154b58b9f0966829a82/artifacts
+end_time: 1684092650654
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91891d23eb644154b58b9f0966829a82
+run_name: wise-eel-282
+run_uuid: 91891d23eb644154b58b9f0966829a82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092648976
+status: 3
+tags: []
+user_id: vishwasgowda

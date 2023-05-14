@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/26bfc6fbc45d4aa99db715d29487b87b/artifacts
+end_time: 1684093003750
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26bfc6fbc45d4aa99db715d29487b87b
+run_name: nosy-pig-589
+run_uuid: 26bfc6fbc45d4aa99db715d29487b87b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684093002211
+status: 3
+tags: []
+user_id: vishwasgowda

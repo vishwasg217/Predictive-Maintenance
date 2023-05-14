@@ -15,12 +15,6 @@ st.write('Please enter the following parameters')
 
 sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
 
-# st.write('Sample input: ')
-# st.write('Type: ',sample_data[0], 'RPM: ',sample_data[1],'Torque: ',sample_data[2],'Tool Wear: ',sample_data[3],'Air Temperature: ',sample_data[4],'Process Temperature: ',sample_data[5])
-# st.write('Sample Output: ')
-# st.write('Machine Failure? ', sample_data[6])
-# st.write('Type of Machine Failure: ', sample_data[7])
-
 st.divider()
 
 type_of_machine = st.selectbox('Type', ['Low', 'Medium', 'High'])

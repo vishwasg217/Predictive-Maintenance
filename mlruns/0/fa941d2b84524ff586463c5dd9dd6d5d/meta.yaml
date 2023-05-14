@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/fa941d2b84524ff586463c5dd9dd6d5d/artifacts
+end_time: 1684094114555
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa941d2b84524ff586463c5dd9dd6d5d
+run_name: bustling-mouse-429
+run_uuid: fa941d2b84524ff586463c5dd9dd6d5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684094112858
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/f75c6a89c37c43088c5365538ec6cab2/artifacts
+end_time: 1684092463871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f75c6a89c37c43088c5365538ec6cab2
+run_name: thundering-gnu-549
+run_uuid: f75c6a89c37c43088c5365538ec6cab2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092462244
+status: 3
+tags: []
+user_id: vishwasgowda

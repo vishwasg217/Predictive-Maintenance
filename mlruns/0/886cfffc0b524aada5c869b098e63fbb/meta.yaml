@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/886cfffc0b524aada5c869b098e63fbb/artifacts
+end_time: 1684087559559
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 886cfffc0b524aada5c869b098e63fbb
+run_name: aged-vole-203
+run_uuid: 886cfffc0b524aada5c869b098e63fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087557658
+status: 3
+tags: []
+user_id: vishwasgowda

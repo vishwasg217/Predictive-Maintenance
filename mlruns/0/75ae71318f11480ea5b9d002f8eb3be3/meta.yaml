@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/75ae71318f11480ea5b9d002f8eb3be3/artifacts
+end_time: 1684087513679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75ae71318f11480ea5b9d002f8eb3be3
+run_name: inquisitive-hawk-966
+run_uuid: 75ae71318f11480ea5b9d002f8eb3be3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087511784
+status: 3
+tags: []
+user_id: vishwasgowda

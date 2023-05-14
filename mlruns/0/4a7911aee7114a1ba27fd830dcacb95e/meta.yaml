@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/4a7911aee7114a1ba27fd830dcacb95e/artifacts
+end_time: 1684092454925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a7911aee7114a1ba27fd830dcacb95e
+run_name: bemused-hog-734
+run_uuid: 4a7911aee7114a1ba27fd830dcacb95e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092453347
+status: 3
+tags: []
+user_id: vishwasgowda

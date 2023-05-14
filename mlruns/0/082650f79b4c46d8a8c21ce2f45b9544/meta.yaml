@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/082650f79b4c46d8a8c21ce2f45b9544/artifacts
+end_time: 1684087522722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 082650f79b4c46d8a8c21ce2f45b9544
+run_name: whimsical-duck-944
+run_uuid: 082650f79b4c46d8a8c21ce2f45b9544
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087521024
+status: 3
+tags: []
+user_id: vishwasgowda

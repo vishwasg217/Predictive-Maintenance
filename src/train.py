@@ -61,7 +61,8 @@ def model1(df: pd.DataFrame):
     best_model = models[best_model_idx]
 
     y_pred = best_model.predict(X_test)
-    report = classification_report(y_test, y_pred)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    report = pd.DataFrame(report).transpose()
 
     logger.info('MODEL 1L ')
     logger.info("Best Model: {}".format(best_model))
@@ -107,7 +108,8 @@ def model2(df: pd.DataFrame):
     best_model = models[best_model_idx]
     y_pred = best_model.predict(X_test)
 
-    report = classification_report(y_test, y_pred)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    report = pd.DataFrame(report).transpose()
 
     logger.info('MODEL 2: ')
     logger.info("Best Model: {}".format(best_model))

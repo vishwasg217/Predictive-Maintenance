@@ -2,6 +2,7 @@ import warnings
 from pathlib import Path
 import typer
 import pickle
+import json
 
 import pandas as pd
 
@@ -47,6 +48,13 @@ def train():
     with open(Path(ARTIFACTS_DIR, "model1.pkl"), "wb") as f:
         pickle.dump(best_model, f)
 
+    scores_df = scores_df.to_json()
+    report = report.to_json()
+    model_metrics = [scores_df, report]
+    with open(Path(ARTIFACTS_DIR, "model1_metrics.json"), "w+") as f:
+        json.dump(model_metrics, f)
+
+
     scores_df, best_model, report = model2(df)
     print("Scores")
     print(scores_df)
@@ -57,6 +65,12 @@ def train():
 
     with open(Path(ARTIFACTS_DIR, "model2.pkl"), "wb") as f:
         pickle.dump(best_model, f)
+
+    scores_df = scores_df.to_json()
+    report = report.to_json()
+    model_metrics = [scores_df, report]
+    with open(Path(ARTIFACTS_DIR, "model2_metrics.json"), "w+") as f:
+        json.dump(model_metrics, f)
 
 
 # get_data()

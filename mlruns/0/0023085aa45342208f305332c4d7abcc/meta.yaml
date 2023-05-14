@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/0023085aa45342208f305332c4d7abcc/artifacts
+end_time: 1684093035510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0023085aa45342208f305332c4d7abcc
+run_name: resilient-ant-830
+run_uuid: 0023085aa45342208f305332c4d7abcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684093033875
+status: 3
+tags: []
+user_id: vishwasgowda

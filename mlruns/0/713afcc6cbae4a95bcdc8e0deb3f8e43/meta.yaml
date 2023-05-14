@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/713afcc6cbae4a95bcdc8e0deb3f8e43/artifacts
+end_time: 1684092620809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 713afcc6cbae4a95bcdc8e0deb3f8e43
+run_name: exultant-calf-850
+run_uuid: 713afcc6cbae4a95bcdc8e0deb3f8e43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092618873
+status: 3
+tags: []
+user_id: vishwasgowda

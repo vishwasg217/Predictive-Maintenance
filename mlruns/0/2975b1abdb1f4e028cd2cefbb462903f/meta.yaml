@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2975b1abdb1f4e028cd2cefbb462903f/artifacts
+end_time: 1684094147141
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2975b1abdb1f4e028cd2cefbb462903f
+run_name: vaunted-sloth-760
+run_uuid: 2975b1abdb1f4e028cd2cefbb462903f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684094145579
+status: 3
+tags: []
+user_id: vishwasgowda

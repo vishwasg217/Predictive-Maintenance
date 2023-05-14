@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/45cb39e446dd4b1dbe283be8669f4034/artifacts
+end_time: 1684094145162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45cb39e446dd4b1dbe283be8669f4034
+run_name: gregarious-crow-719
+run_uuid: 45cb39e446dd4b1dbe283be8669f4034
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684094143622
+status: 3
+tags: []
+user_id: vishwasgowda

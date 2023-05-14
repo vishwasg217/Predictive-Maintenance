@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/4e3af4fefc1d43c2b8888832e94e6b1d/artifacts
+end_time: 1684087526330
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4e3af4fefc1d43c2b8888832e94e6b1d
+run_name: industrious-bass-553
+run_uuid: 4e3af4fefc1d43c2b8888832e94e6b1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087524441
+status: 3
+tags: []
+user_id: vishwasgowda

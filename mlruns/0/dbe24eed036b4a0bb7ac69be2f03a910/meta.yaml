@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/dbe24eed036b4a0bb7ac69be2f03a910/artifacts
+end_time: 1684092640526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbe24eed036b4a0bb7ac69be2f03a910
+run_name: nimble-duck-474
+run_uuid: dbe24eed036b4a0bb7ac69be2f03a910
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092638964
+status: 3
+tags: []
+user_id: vishwasgowda

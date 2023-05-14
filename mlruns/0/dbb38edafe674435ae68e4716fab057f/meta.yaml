@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/dbb38edafe674435ae68e4716fab057f/artifacts
+end_time: 1684092435730
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbb38edafe674435ae68e4716fab057f
+run_name: amazing-mouse-686
+run_uuid: dbb38edafe674435ae68e4716fab057f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684092433735
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e3aa6edd077f4fd49f84ccd4da4f4dc7/artifacts
+end_time: 1684093024405
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3aa6edd077f4fd49f84ccd4da4f4dc7
+run_name: upset-sheep-829
+run_uuid: e3aa6edd077f4fd49f84ccd4da4f4dc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684093022840
+status: 3
+tags: []
+user_id: vishwasgowda

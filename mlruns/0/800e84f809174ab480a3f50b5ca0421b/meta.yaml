@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/800e84f809174ab480a3f50b5ca0421b/artifacts
+end_time: 1684087474158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 800e84f809174ab480a3f50b5ca0421b
+run_name: brawny-cod-585
+run_uuid: 800e84f809174ab480a3f50b5ca0421b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087471944
+status: 3
+tags: []
+user_id: vishwasgowda

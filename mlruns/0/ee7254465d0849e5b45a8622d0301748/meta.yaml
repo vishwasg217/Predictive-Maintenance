@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ee7254465d0849e5b45a8622d0301748/artifacts
+end_time: 1684094123689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee7254465d0849e5b45a8622d0301748
+run_name: trusting-duck-346
+run_uuid: ee7254465d0849e5b45a8622d0301748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684094122045
+status: 3
+tags: []
+user_id: vishwasgowda

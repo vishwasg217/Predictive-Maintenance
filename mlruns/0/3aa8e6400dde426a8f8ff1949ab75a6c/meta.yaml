@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3aa8e6400dde426a8f8ff1949ab75a6c/artifacts
+end_time: 1684087547889
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3aa8e6400dde426a8f8ff1949ab75a6c
+run_name: fun-deer-241
+run_uuid: 3aa8e6400dde426a8f8ff1949ab75a6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684087545818
+status: 3
+tags: []
+user_id: vishwasgowda
