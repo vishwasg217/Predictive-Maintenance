@@ -1,4 +1,5 @@
 import streamlit as st
+from annotated_text import annotated_text
 import requests
 import pandas as pd
 import numpy as np
@@ -8,7 +9,7 @@ app_url = "http://localhost:8000"
 endpoint = "/metrics"
 model_url = f"{app_url}{endpoint}"
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Performance Measures",layout="wide")
 
 st.title('Performance Measures')
 
@@ -26,7 +27,7 @@ with col1:
     st.dataframe(model1_scores)
 
     best_model_name1 = response_json["Best Model Name 1"]
-    st.write('Best Model Name: ', best_model_name1)
+    annotated_text((best_model_name1, "Best Model Name"))
 
     model1_report = json.loads(response_json["Model 1 Report"])
     model1_report = pd.DataFrame(model1_report)
@@ -42,7 +43,7 @@ with col2:
     st.dataframe(model2_scores)
 
     best_model_name2 = response_json["Best Model Name 2"]
-    st.write('Best Model Name: ', best_model_name2)
+    annotated_text(( best_model_name2, "Best Model Name"))
 
     model2_report = json.loads(response_json["Model 2 Report"])
     model2_report = pd.DataFrame(model2_report)

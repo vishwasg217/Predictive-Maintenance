@@ -9,6 +9,8 @@ app_url = "http://localhost:8000"
 endpoint = "/predict"
 model_url = f"{app_url}{endpoint}"
 
+st.set_page_config(page_title="Predictive Maintenance",layout="wide")
+
 st.title('Predictive Maintenance')
 
 st.write('Please enter the following parameters')
