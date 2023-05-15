@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/6d558812c7af44e4a540d6a0fdd54ef7/artifacts
+end_time: 1684140193118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d558812c7af44e4a540d6a0fdd54ef7
+run_name: worried-foal-198
+run_uuid: 6d558812c7af44e4a540d6a0fdd54ef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140191220
+status: 3
+tags: []
+user_id: vishwasgowda

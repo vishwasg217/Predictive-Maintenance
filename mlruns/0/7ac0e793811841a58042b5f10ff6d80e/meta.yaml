@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7ac0e793811841a58042b5f10ff6d80e/artifacts
+end_time: 1684143996401
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ac0e793811841a58042b5f10ff6d80e
+run_name: stylish-hawk-749
+run_uuid: 7ac0e793811841a58042b5f10ff6d80e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143994648
+status: 3
+tags: []
+user_id: vishwasgowda

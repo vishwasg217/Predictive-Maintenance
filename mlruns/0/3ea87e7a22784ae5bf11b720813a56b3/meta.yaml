@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3ea87e7a22784ae5bf11b720813a56b3/artifacts
+end_time: 1684143817398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ea87e7a22784ae5bf11b720813a56b3
+run_name: likeable-stag-349
+run_uuid: 3ea87e7a22784ae5bf11b720813a56b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143815096
+status: 3
+tags: []
+user_id: vishwasgowda

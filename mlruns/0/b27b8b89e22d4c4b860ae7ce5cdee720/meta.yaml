@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b27b8b89e22d4c4b860ae7ce5cdee720/artifacts
+end_time: 1684140836977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b27b8b89e22d4c4b860ae7ce5cdee720
+run_name: gaudy-pug-580
+run_uuid: b27b8b89e22d4c4b860ae7ce5cdee720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140834995
+status: 3
+tags: []
+user_id: vishwasgowda

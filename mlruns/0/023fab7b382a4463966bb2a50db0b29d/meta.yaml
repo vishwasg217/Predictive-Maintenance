@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/023fab7b382a4463966bb2a50db0b29d/artifacts
+end_time: 1684143751921
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 023fab7b382a4463966bb2a50db0b29d
+run_name: ambitious-vole-445
+run_uuid: 023fab7b382a4463966bb2a50db0b29d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143749691
+status: 3
+tags: []
+user_id: vishwasgowda

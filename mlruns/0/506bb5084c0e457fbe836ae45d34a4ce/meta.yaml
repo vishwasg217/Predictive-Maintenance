@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/506bb5084c0e457fbe836ae45d34a4ce/artifacts
+end_time: 1684140135156
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 506bb5084c0e457fbe836ae45d34a4ce
+run_name: caring-perch-32
+run_uuid: 506bb5084c0e457fbe836ae45d34a4ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140132945
+status: 3
+tags: []
+user_id: vishwasgowda

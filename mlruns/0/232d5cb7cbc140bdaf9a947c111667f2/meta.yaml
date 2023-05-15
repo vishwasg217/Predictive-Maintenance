@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/232d5cb7cbc140bdaf9a947c111667f2/artifacts
+end_time: 1684140153082
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 232d5cb7cbc140bdaf9a947c111667f2
+run_name: illustrious-flea-775
+run_uuid: 232d5cb7cbc140bdaf9a947c111667f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140151199
+status: 3
+tags: []
+user_id: vishwasgowda

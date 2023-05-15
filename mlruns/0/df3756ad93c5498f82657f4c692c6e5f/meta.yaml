@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/df3756ad93c5498f82657f4c692c6e5f/artifacts
+end_time: 1684140165966
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df3756ad93c5498f82657f4c692c6e5f
+run_name: youthful-foal-504
+run_uuid: df3756ad93c5498f82657f4c692c6e5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140164060
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/93f2caa2bffc4d4683118df789fb15db/artifacts
+end_time: 1684140884615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93f2caa2bffc4d4683118df789fb15db
+run_name: nosy-mouse-494
+run_uuid: 93f2caa2bffc4d4683118df789fb15db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140882531
+status: 3
+tags: []
+user_id: vishwasgowda

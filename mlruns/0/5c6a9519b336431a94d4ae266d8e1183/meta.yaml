@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/5c6a9519b336431a94d4ae266d8e1183/artifacts
+end_time: 1684143197012
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c6a9519b336431a94d4ae266d8e1183
+run_name: casual-sponge-623
+run_uuid: 5c6a9519b336431a94d4ae266d8e1183
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143195319
+status: 3
+tags: []
+user_id: vishwasgowda

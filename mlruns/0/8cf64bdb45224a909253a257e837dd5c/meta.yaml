@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/8cf64bdb45224a909253a257e837dd5c/artifacts
+end_time: 1684139709959
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8cf64bdb45224a909253a257e837dd5c
+run_name: tasteful-jay-535
+run_uuid: 8cf64bdb45224a909253a257e837dd5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139708187
+status: 3
+tags: []
+user_id: vishwasgowda

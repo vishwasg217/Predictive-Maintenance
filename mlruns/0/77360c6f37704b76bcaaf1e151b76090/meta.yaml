@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/77360c6f37704b76bcaaf1e151b76090/artifacts
+end_time: 1684140870682
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77360c6f37704b76bcaaf1e151b76090
+run_name: unequaled-shoat-170
+run_uuid: 77360c6f37704b76bcaaf1e151b76090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140868840
+status: 3
+tags: []
+user_id: vishwasgowda

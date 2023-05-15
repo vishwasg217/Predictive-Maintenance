@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/05922a553e164cafb41e8f25af4d0cbf/artifacts
+end_time: 1684139850624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05922a553e164cafb41e8f25af4d0cbf
+run_name: bold-colt-824
+run_uuid: 05922a553e164cafb41e8f25af4d0cbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139848393
+status: 3
+tags: []
+user_id: vishwasgowda

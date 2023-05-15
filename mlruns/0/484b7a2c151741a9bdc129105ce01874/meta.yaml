@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/484b7a2c151741a9bdc129105ce01874/artifacts
+end_time: 1684140839117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 484b7a2c151741a9bdc129105ce01874
+run_name: bouncy-shrimp-145
+run_uuid: 484b7a2c151741a9bdc129105ce01874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140837304
+status: 3
+tags: []
+user_id: vishwasgowda

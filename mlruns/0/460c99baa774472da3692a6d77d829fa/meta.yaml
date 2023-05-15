@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/460c99baa774472da3692a6d77d829fa/artifacts
+end_time: 1684139836614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 460c99baa774472da3692a6d77d829fa
+run_name: wistful-doe-344
+run_uuid: 460c99baa774472da3692a6d77d829fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139834783
+status: 3
+tags: []
+user_id: vishwasgowda

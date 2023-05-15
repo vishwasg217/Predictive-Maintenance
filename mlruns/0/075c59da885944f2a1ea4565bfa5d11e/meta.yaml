@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/075c59da885944f2a1ea4565bfa5d11e/artifacts
+end_time: 1684143971087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 075c59da885944f2a1ea4565bfa5d11e
+run_name: delightful-doe-815
+run_uuid: 075c59da885944f2a1ea4565bfa5d11e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143969227
+status: 3
+tags: []
+user_id: vishwasgowda

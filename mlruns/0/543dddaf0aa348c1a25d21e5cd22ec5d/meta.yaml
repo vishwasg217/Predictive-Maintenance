@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/543dddaf0aa348c1a25d21e5cd22ec5d/artifacts
+end_time: 1684143206599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 543dddaf0aa348c1a25d21e5cd22ec5d
+run_name: magnificent-koi-589
+run_uuid: 543dddaf0aa348c1a25d21e5cd22ec5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143204516
+status: 3
+tags: []
+user_id: vishwasgowda

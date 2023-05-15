@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d8aa34cfb75d4c379df9aa976eba1936/artifacts
+end_time: 1684139805347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8aa34cfb75d4c379df9aa976eba1936
+run_name: calm-boar-429
+run_uuid: d8aa34cfb75d4c379df9aa976eba1936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139803609
+status: 3
+tags: []
+user_id: vishwasgowda

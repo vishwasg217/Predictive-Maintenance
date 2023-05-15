@@ -12,35 +12,22 @@ def metrics():
         model1_metrics = json.load(f)
 
     scores1 = model1_metrics[0]
-    scores_df1 = pd.read_json(scores1)
     report1 = model1_metrics[1]
-    report_df1 = pd.read_json(report1)
-
-    print("MODEL 1")
-    print("---------------------------------------")
-    print("Scores: ")
-    print(scores_df1)
-    print("Report: ")
-    print(report_df1)
-
-    print("---------------------------------------")
-    print("---------------------------------------")
+    best_model_name1 = model1_metrics[2]
 
 
     with open(Path(ARTIFACTS_DIR,'model2_metrics.json'), 'rb') as f:
         model2_metrics = json.load(f)
 
     scores2 = model2_metrics[0]
-    scores_df2 = pd.read_json(scores2)
     report2 = model2_metrics[1]
-    report_df2 = pd.read_json(report2)
+    best_model_name2 = model2_metrics[2]
+    
 
-    print("MODEL 2")
-    print("---------------------------------------")
-    print("Scores: ")
-    print(scores_df2)
-    print("Report: ")
-    print(report_df2)
-    print(type(scores_df2))
+    return scores1, report1,best_model_name1, scores2, report2, best_model_name2
 
-metrics()
+    
+scores1, report1,best_model_name1, scores2, report2,best_model_name2 = metrics()
+print(scores2)
+print(report2)
+print(best_model_name2)

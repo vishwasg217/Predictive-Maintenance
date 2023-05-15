@@ -25,7 +25,7 @@ rf = RandomForestClassifier()
 
 models = [lr, svc, dt, rf]
 model_name = ["Logistic Regression", "SVC", "Decision Tree", "Random Forest"]
-scores = []
+
 
 
 def model1(df: pd.DataFrame):
@@ -34,6 +34,7 @@ def model1(df: pd.DataFrame):
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+    scores = []
 
     for i, m in enumerate(models):
         m.fit(X_train.values, y_train.values)
@@ -58,19 +59,18 @@ def model1(df: pd.DataFrame):
         [scores_df, pd.DataFrame(scores, columns=["Accuracy", "Precision", "Recall", "F1"])], axis=1
     )
     best_model_idx = scores_df["F1"].idxmax()
+    best_model_name = scores_df.loc[best_model_idx, 'Model']
     best_model = models[best_model_idx]
 
     y_pred = best_model.predict(X_test)
     report = classification_report(y_test, y_pred, output_dict=True)
     report = pd.DataFrame(report).transpose()
 
-    logger.info('MODEL 1L ')
-    logger.info("Best Model: {}".format(best_model))
+    logger.info('MODEL 1')
+    logger.info("Best Model: {} ".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
-
-
-    return scores_df, best_model, report
+    return scores_df, best_model, best_model_name, report
 
 
 def model2(df: pd.DataFrame):
@@ -78,6 +78,8 @@ def model2(df: pd.DataFrame):
     y = df["type_of_failure"]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    scores = []
 
     for i, m in enumerate(models):
         m.fit(X_train.values, y_train.values)
@@ -105,6 +107,7 @@ def model2(df: pd.DataFrame):
     )
 
     best_model_idx = scores_df["F1"].idxmax()
+    best_model_name = scores_df.loc[best_model_idx, 'Model']
     best_model = models[best_model_idx]
     y_pred = best_model.predict(X_test)
 
@@ -115,4 +118,4 @@ def model2(df: pd.DataFrame):
     logger.info("Best Model: {}".format(best_model))
     logger.info(f"Classification Report:\n{report}")
 
-    return scores_df, best_model, report
+    return scores_df, best_model, best_model_name, report

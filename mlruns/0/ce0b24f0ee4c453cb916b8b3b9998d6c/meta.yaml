@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ce0b24f0ee4c453cb916b8b3b9998d6c/artifacts
+end_time: 1684140819069
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce0b24f0ee4c453cb916b8b3b9998d6c
+run_name: unleashed-rat-211
+run_uuid: ce0b24f0ee4c453cb916b8b3b9998d6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140816939
+status: 3
+tags: []
+user_id: vishwasgowda

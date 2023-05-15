@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/59b36f0299a04dc28351d7d5f5ac205b/artifacts
+end_time: 1684140852220
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59b36f0299a04dc28351d7d5f5ac205b
+run_name: clumsy-ant-900
+run_uuid: 59b36f0299a04dc28351d7d5f5ac205b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140850519
+status: 3
+tags: []
+user_id: vishwasgowda

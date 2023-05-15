@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/904614ee41a149df81b9a0f588b6f70a/artifacts
+end_time: 1684139814489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 904614ee41a149df81b9a0f588b6f70a
+run_name: kindly-stoat-548
+run_uuid: 904614ee41a149df81b9a0f588b6f70a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139812741
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ab8d1c417d534df4aee918b5a01fe45e/artifacts
+end_time: 1684139838855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab8d1c417d534df4aee918b5a01fe45e
+run_name: popular-asp-306
+run_uuid: ab8d1c417d534df4aee918b5a01fe45e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139837020
+status: 3
+tags: []
+user_id: vishwasgowda

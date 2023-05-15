@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/f9f1001c530e44f5b6eb3e6c4cdef554/artifacts
+end_time: 1684143974977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9f1001c530e44f5b6eb3e6c4cdef554
+run_name: resilient-shrimp-155
+run_uuid: f9f1001c530e44f5b6eb3e6c4cdef554
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143972999
+status: 3
+tags: []
+user_id: vishwasgowda

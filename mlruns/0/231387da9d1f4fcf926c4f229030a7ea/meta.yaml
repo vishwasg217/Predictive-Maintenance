@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/231387da9d1f4fcf926c4f229030a7ea/artifacts
+end_time: 1684143803118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 231387da9d1f4fcf926c4f229030a7ea
+run_name: merciful-ant-152
+run_uuid: 231387da9d1f4fcf926c4f229030a7ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143801220
+status: 3
+tags: []
+user_id: vishwasgowda

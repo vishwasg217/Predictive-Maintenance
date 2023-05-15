@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/16d53bb5de7f4cecbeaeac8e99937984/artifacts
+end_time: 1684143805293
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16d53bb5de7f4cecbeaeac8e99937984
+run_name: selective-wasp-864
+run_uuid: 16d53bb5de7f4cecbeaeac8e99937984
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143803540
+status: 3
+tags: []
+user_id: vishwasgowda

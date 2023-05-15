@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/549b4c0cc77749009f85d435d2ecd9fc/artifacts
+end_time: 1684140873022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 549b4c0cc77749009f85d435d2ecd9fc
+run_name: intrigued-stoat-554
+run_uuid: 549b4c0cc77749009f85d435d2ecd9fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140871107
+status: 3
+tags: []
+user_id: vishwasgowda

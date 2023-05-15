@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2f43598a20c7474c9c24d8f91d88a443/artifacts
+end_time: 1684143959644
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f43598a20c7474c9c24d8f91d88a443
+run_name: rogue-fly-476
+run_uuid: 2f43598a20c7474c9c24d8f91d88a443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143957866
+status: 3
+tags: []
+user_id: vishwasgowda

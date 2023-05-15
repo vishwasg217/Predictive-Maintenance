@@ -38,7 +38,7 @@ def preprocess():
 @app.command()
 def train():
     df = pd.read_csv(Path(config.DATA_DIR, "processed/preprocessed.csv"))
-    scores_df, best_model, report = model1(df)
+    scores_df, best_model, best_model_name, report = model1(df)
     print("Scores")
     print(scores_df)
     print("Best model")
@@ -50,12 +50,12 @@ def train():
 
     scores_df = scores_df.to_json()
     report = report.to_json()
-    model_metrics = [scores_df, report]
+    model_metrics = [scores_df, report, best_model_name]
     with open(Path(ARTIFACTS_DIR, "model1_metrics.json"), "w+") as f:
         json.dump(model_metrics, f)
 
 
-    scores_df, best_model, report = model2(df)
+    scores_df, best_model, best_model_name, report = model2(df)
     print("Scores")
     print(scores_df)
     print("Best model")
@@ -68,7 +68,7 @@ def train():
 
     scores_df = scores_df.to_json()
     report = report.to_json()
-    model_metrics = [scores_df, report]
+    model_metrics = [scores_df, report, best_model_name]
     with open(Path(ARTIFACTS_DIR, "model2_metrics.json"), "w+") as f:
         json.dump(model_metrics, f)
 

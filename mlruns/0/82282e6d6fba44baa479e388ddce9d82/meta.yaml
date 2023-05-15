@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/82282e6d6fba44baa479e388ddce9d82/artifacts
+end_time: 1684143940640
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82282e6d6fba44baa479e388ddce9d82
+run_name: rebellious-snake-458
+run_uuid: 82282e6d6fba44baa479e388ddce9d82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143938265
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/30941c21551a46cab80848a543fe8610/artifacts
+end_time: 1684140171756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30941c21551a46cab80848a543fe8610
+run_name: upbeat-owl-44
+run_uuid: 30941c21551a46cab80848a543fe8610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684140169517
+status: 3
+tags: []
+user_id: vishwasgowda

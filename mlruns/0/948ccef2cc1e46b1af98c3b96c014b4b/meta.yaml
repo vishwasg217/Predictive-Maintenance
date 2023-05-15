@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/948ccef2cc1e46b1af98c3b96c014b4b/artifacts
+end_time: 1684143771728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 948ccef2cc1e46b1af98c3b96c014b4b
+run_name: mysterious-cod-314
+run_uuid: 948ccef2cc1e46b1af98c3b96c014b4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684143769924
+status: 3
+tags: []
+user_id: vishwasgowda

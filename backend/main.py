@@ -4,6 +4,7 @@ from backend.model import User
 
 
 from src.predict import prediction
+from src.metrics import metrics
 print('after import')
 appl = FastAPI()
 
@@ -33,6 +34,17 @@ def predict(data: User):
 
     return {"Machine Failure? ": result1,
             "Type of Failure: ": result2}
+
+@appl.get('/metrics')
+def get_metrics():
+    scores1, report1, best_model_name1, scores2, report2,best_model_name2 = metrics()
+    return {"Model 1 Scores": scores1,
+            "Model 1 Report": report1,
+            "Best Model Name 1": best_model_name1,
+            "Model 2 Scores": scores2,
+            "Model 2 Report": report2,
+            "Best Model Name 2": best_model_name2}
+
 
 
 if __name__ == "__main__":

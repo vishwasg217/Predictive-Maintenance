@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e78eea91382f4bf4aba49e0ebdf84b0d/artifacts
+end_time: 1684139803276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e78eea91382f4bf4aba49e0ebdf84b0d
+run_name: colorful-gull-836
+run_uuid: e78eea91382f4bf4aba49e0ebdf84b0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684139801455
+status: 3
+tags: []
+user_id: vishwasgowda
