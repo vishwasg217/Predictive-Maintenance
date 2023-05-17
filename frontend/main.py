@@ -1,62 +1,93 @@
-import json
-import pandas as pd
-import numpy as np
 import streamlit as st
-import requests
-# from config.config import logger
-
-app_url = "http://fastapi:8000"
-endpoint = "/predict"
-model_url = f"{app_url}{endpoint}"
+import pandas as pd
 
 st.set_page_config(page_title="Predictive Maintenance",layout="wide")
 
 st.title('Predictive Maintenance')
 
-st.write('checking if github actions works')
 
-st.write('Please enter the following parameters')
+st.markdown('''
+## 1. Overview
 
-sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
+This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize machine learning models that:
 
-st.divider()
+- Evaluates whether the equipment will fail or not based on process parameters, including air and process temperatures, rotational speed, torque, and tool wear.
 
-type_of_machine = st.selectbox('Type', ['Low', 'Medium', 'High'])
+- Identifies the type of equipment failure in the event of a failure, based on the same process parameters.
 
-type_of_machine = str(type_of_machine)
+## 2. Motivation
 
-rpm = st.number_input('RPM: ', value=sample_data[1])
-st.write('The current value of RPM is', rpm)
-torque = st.number_input('Torque: ', value=sample_data[2])    
-st.write('The current value of Torque is', torque)
-tool_wear = st.number_input('Tool Wear: ', value=sample_data[3])
-st.write('The current value of Tool Wear is', tool_wear)
-air_temp = st.number_input('Air Temperature: ', value=sample_data[4])
-st.write('The current value of Air Temperature is', air_temp)
-process_temp = st.number_input('Process Temperature: ', value=sample_data[5])
-st.write('The current value of Process Temperature is', process_temp)
+Predictive maintenance can help companies minimize downtime, reduce repair costs, and improve operational efficiency. Developing a web application for predictive maintenance can provide users with real-time insights into equipment performance, enabling proactive maintenance, and reducing unplanned downtime.
 
+## 3. Success Metrics
 
-data = {
-    "type": type_of_machine,
-    "rpm": rpm,
-    "torque": torque,
-    "tool_wear": tool_wear,
-    "air_temp": air_temp,
-    "process_temp": process_temp
-}
+The success of the project will be measured based on the following metrics:
 
-    
+- Precsion, recall, and F1 score of the machine learning models.
+- Responsiveness and ease of use of the web application.
+- Reduction in unplanned downtime and repair costs
 
-if st.button("Predict"):
-    response = requests.post(model_url, json=data)
-    if response.ok:
-        response_json = response.json()
-        st.write('Machine Failure?  ', response_json.get('Machine Failure? '))
-        st.write('Type of Failure: ', response_json.get('Type of Failure: ')) 
-    else:
-        st.write('Error:', response.status_code, response.text)
-         
-        
+## 4. Requirements & Constraints
 
+### 4.1 Functional Requirements
 
+The web application should provide the following functionality:
+
+- Users can provide the process parameters to the model and receive a prediction of whether the equipment will fail or not, and the type of failure.
+- Users can view and infer the performance metrics of different machine learning models.
+- Users can visualize the data and gain insights into the behavior of the equipment.
+
+### 4.2 Non-functional Requirements
+
+The web application should meet the following non-functional requirements:
+
+- The model should have high precision, recall, and F1 score.
+- The web application should be responsive and easy to use.
+- The web application should be secure and protect user data.
+
+### 4.3 Constraints
+
+- The application should be built using FastAPI and Streamlit and deployed using Docker and Digital Ocean droplets.
+- The cost of deployment should be minimal.
+
+### 4.4 Out-of-scope
+
+- Integrating with external applications or data sources.
+- Providing detailed equipment diagnostic information.
+
+## 5. Methodology
+
+### 5.1. Problem Statement
+
+The problem is to develop a machine learning model that predicts equipment failures based on process parameters.
+
+### 5.2. Data
+
+The dataset consists of more than 50,000 data points stored as rows with 14 features in columns. The features include process parameters such as air and process temperatures, rotational speed, torque, and tool wear. The target variable is a binary label indicating whether the equipment failed or not.
+
+### 5.3. Techniques
+
+We will utilize both a binary classification model, and a multi-class classification model to predict equipment failures, and type of equipment fauilure respectively. The following machine learning techniques will be used:
+
+- Data preprocessing and cleaning
+- Feature engineering and selection
+- Model selection and training
+- Hyperparameter tuning
+- Model evaluation and testing
+
+## 6. Architecture
+
+The web application architecture will consist of the following components:
+
+- A frontend web application built using Streamlit
+- A backend server built using FastAPI
+- A machine learning model for equipment failure prediction
+- Docker containers to run the frontend, backend, and model
+- Cloud infrastructure to host the application
+
+The frontend will interact with the backend server through API calls to request predictions, model training, and data storage. The backend server will manage user authentication, data storage, and model training. The machine learning model will be trained and deployed using Docker containers. The application will be hosted on Digital Ocean droplets.
+
+## 7. Conclusion
+
+This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize a machine learning model that identifies equipment failures based on process parameters, including air and process temperatures, rotational speed, torque, and tool wear. The web application will be built using FastAPI and Streamlit and deployed using Docker and Digital Ocean droplets.
+''')
