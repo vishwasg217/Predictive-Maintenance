@@ -13,6 +13,8 @@ st.set_page_config(page_title="Predictive Maintenance",layout="wide")
 
 st.title('Predictive Maintenance')
 
+st.write('checking if github actions works')
+
 st.write('Please enter the following parameters')
 
 sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
