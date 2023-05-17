@@ -9,7 +9,7 @@ app_url = "http://fastapi:8000"
 endpoint = "/predict"
 model_url = f"{app_url}{endpoint}"
 
-st.set_page_config(page_title="Predictive Maintenance",layout="wide")
+st.set_page_config(page_title="Prediction",layout="wide")
 
 st.title('Predictive Maintenance')
 
