@@ -18,21 +18,28 @@ jobs:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.DO_DROPLET_SSH_KEY }}
+          script: |
+            cd Predictive-Maintenance
+            git pull origin main
+            docker rm -f $(docker ps -aq)
+            docker rmi -f $(docker images -aq)
+            docker-compose build
+            docker-compose up -d
           
-      - name: update changes in codebase
-        run: |
-          cd Predictive-Maintenance
-          git pull origin main
+      # - name: update changes in codebase
+      #   run: |
+      #     cd Predictive-Maintenance
+      #     git pull origin main
 
-      - name: remove old docker compose containers and images
-        run: |
-          docker rm -f $(docker ps -aq)
-          docker rmi -f $(docker images -aq)
+      # - name: remove old docker compose containers and images
+      #   run: |
+      #     docker rm -f $(docker ps -aq)
+      #     docker rmi -f $(docker images -aq)
           
-      - name: build docker compose container
-        run: |
-          docker-compose build
-          docker-compose up -d
+      # - name: build docker compose container
+      #   run: |
+      #     docker-compose build
+      #     docker-compose up -d
         
 
 
