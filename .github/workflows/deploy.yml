@@ -17,7 +17,8 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: root
-          password: ${{ secrets.DO_DROPLET_SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd Predictive-Maintenance
             git pull origin main

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1a5ebcad28b14602b6f96c3d650d5f0f/artifacts
+end_time: 1684393491444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a5ebcad28b14602b6f96c3d650d5f0f
+run_name: unequaled-hog-813
+run_uuid: 1a5ebcad28b14602b6f96c3d650d5f0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684393489868
+status: 3
+tags: []
+user_id: vishwasgowda

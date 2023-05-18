@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/dff1d9a6cd0e4eb3a2e7e020ca1ee230/artifacts
+end_time: 1684393521786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dff1d9a6cd0e4eb3a2e7e020ca1ee230
+run_name: hilarious-conch-247
+run_uuid: dff1d9a6cd0e4eb3a2e7e020ca1ee230
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684393520017
+status: 3
+tags: []
+user_id: vishwasgowda

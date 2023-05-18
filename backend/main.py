@@ -1,10 +1,11 @@
 import uvicorn
 from fastapi import FastAPI
 from backend.model import User
-
+from pathlib import Path
 
 from src.predict import prediction
 from src.metrics import metrics
+from src.eda import get_eda_obj
 print('after import')
 appl = FastAPI()
 
@@ -44,6 +45,11 @@ def get_metrics():
             "Model 2 Scores": scores2,
             "Model 2 Report": report2,
             "Best Model Name 2": best_model_name2}
+
+@appl.get('/eda')
+def get_eda():
+    eda_json = get_eda_obj()
+    return eda_json
 
 
 

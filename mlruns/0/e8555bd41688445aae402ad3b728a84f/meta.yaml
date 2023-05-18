@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e8555bd41688445aae402ad3b728a84f/artifacts
+end_time: 1684393489533
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8555bd41688445aae402ad3b728a84f
+run_name: upset-fox-545
+run_uuid: e8555bd41688445aae402ad3b728a84f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684393487807
+status: 3
+tags: []
+user_id: vishwasgowda

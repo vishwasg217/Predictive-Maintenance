@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r /backend/requirements.txt
 
 COPY ./artifacts/ /artifacts/
 COPY ./src/predict.py /src/
+COPY ./src/eda.py /src/
 COPY ./config/ /config/
 COPY ./ /backend/
 

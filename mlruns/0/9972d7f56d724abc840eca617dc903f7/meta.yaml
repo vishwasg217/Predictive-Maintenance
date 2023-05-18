@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/9972d7f56d724abc840eca617dc903f7/artifacts
+end_time: 1684393500532
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9972d7f56d724abc840eca617dc903f7
+run_name: sassy-smelt-723
+run_uuid: 9972d7f56d724abc840eca617dc903f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684393498921
+status: 3
+tags: []
+user_id: vishwasgowda

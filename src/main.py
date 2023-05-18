@@ -16,6 +16,15 @@ from data import (
     sampling,
 )
 from train import model1, model2
+from src.eda import (
+    setup,
+    question_one,
+    question_two,
+    question_three,
+    question_four,
+    question_five,
+    question_six
+)
 
 warnings.filterwarnings("ignore")
 app = typer.Typer()
@@ -23,6 +32,26 @@ app = typer.Typer()
 def get_data():
     df = pd.read_csv("data/raw/data.csv")
     return df
+
+def eda(df):
+    df = setup(df)
+    q1 = question_one(df)
+    q2 = question_two(df)
+    q3 = question_three(df)
+    q4 = question_four(df)
+    q5 = question_five(df)
+
+    json_obj = {
+        "q1": q1,
+        "q2": q2,
+        "q3": q3,
+        "q4": q4,
+        "q5": q5
+    }
+
+    with open(Path(ARTIFACTS_DIR, "eda.json"), "w+") as f:
+        json.dump(json_obj, f)
+    
 
 @app.command()
 def preprocess():
@@ -74,6 +103,7 @@ def train():
 
 
 # get_data()
+eda(get_data())
 df = preprocess()
 print(df)
 train()

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/4dcf7ef054af40adbc7dec2cd2aea6e9/artifacts
+end_time: 1684393524255
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4dcf7ef054af40adbc7dec2cd2aea6e9
+run_name: bemused-bee-206
+run_uuid: 4dcf7ef054af40adbc7dec2cd2aea6e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684393522202
+status: 3
+tags: []
+user_id: vishwasgowda

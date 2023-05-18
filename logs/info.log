@@ -1384,3 +1384,205 @@ accuracy       0.992316  0.992316  0.992316      0.992316
 macro avg      0.992413  0.992432  0.992322  11583.000000
 weighted avg   0.992415  0.992316  0.992263  11583.000000
 
+INFO 2023-05-18 12:17:24,323 [root:eda.py:setup:38]
+Created type_of_failure column
+
+INFO 2023-05-18 12:17:24,640 [root:eda.py:question_one:44]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:17:24,674 [root:eda.py:question_two:50]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:17:24,754 [root:eda.py:question_three:84]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:19:17,772 [root:eda.py:setup:38]
+Created type_of_failure column
+
+INFO 2023-05-18 12:19:17,992 [root:eda.py:question_one:44]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:19:18,026 [root:eda.py:question_two:50]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:19:18,099 [root:eda.py:question_three:84]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:21:40,343 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:21:40,561 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:21:40,596 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:21:40,672 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:31:55,069 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:31:55,391 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:31:55,424 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:31:55,502 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:33:00,328 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:33:00,545 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:33:00,578 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:33:00,652 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:33:00,669 [root:eda.py:question_four:119]
+EDA Question 4 complete
+
+INFO 2023-05-18 12:33:00,709 [root:eda.py:question_five:126]
+EDA Question 5 complete
+
+INFO 2023-05-18 12:34:28,482 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:34:28,746 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-18 12:34:28,780 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-18 12:34:28,855 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-18 12:34:28,871 [root:eda.py:question_four:119]
+EDA Question 4 complete
+
+INFO 2023-05-18 12:34:28,907 [root:eda.py:question_five:126]
+EDA Question 5 complete
+
+INFO 2023-05-18 12:34:29,202 [root:data.py:create_target:43]
+Target variable created
+
+INFO 2023-05-18 12:34:29,204 [root:data.py:convert_to_celsius:52]
+Temperature converted to celsius
+
+INFO 2023-05-18 12:34:29,207 [root:data.py:ordinal_encoding:59]
+Type encoded
+
+INFO 2023-05-18 12:34:29,212 [root:data.py:feature_scaling:84]
+Features scaled
+
+INFO 2023-05-18 12:34:29,231 [root:data.py:sampling:94]
+Data sampled
+
+INFO 2023-05-18 12:35:00,680 [root:train.py:model1:69]
+MODEL 1
+
+INFO 2023-05-18 12:35:00,683 [root:train.py:model1:70]
+Best Model: RandomForestClassifier() 
+
+INFO 2023-05-18 12:35:00,687 [root:train.py:model1:71]
+Classification Report:
+              precision    recall  f1-score       support
+0              0.998945  0.977537  0.988125   3873.000000
+1              0.988836  0.999481  0.994130   7710.000000
+accuracy       0.992144  0.992144  0.992144      0.992144
+macro avg      0.993890  0.988509  0.991127  11583.000000
+weighted avg   0.992216  0.992144  0.992122  11583.000000
+
+INFO 2023-05-18 12:35:03,150 [root:train.py:model2:100]
+model 0 logged to mlflow
+
+INFO 2023-05-18 12:35:21,787 [root:train.py:model2:100]
+model 1 logged to mlflow
+
+INFO 2023-05-18 12:35:24,256 [root:train.py:model2:100]
+model 2 logged to mlflow
+
+INFO 2023-05-18 12:35:35,855 [root:train.py:model2:100]
+model 3 logged to mlflow
+
+INFO 2023-05-18 12:35:36,059 [root:train.py:model2:117]
+MODEL 2: 
+
+INFO 2023-05-18 12:35:36,060 [root:train.py:model2:118]
+Best Model: RandomForestClassifier()
+
+INFO 2023-05-18 12:35:36,064 [root:train.py:model2:119]
+Classification Report:
+              precision    recall  f1-score      support
+0              0.996290  1.000000  0.998142   1880.00000
+1              0.993320  1.000000  0.996649   1933.00000
+2              0.996439  1.000000  0.998217   1959.00000
+3              0.992220  0.998956  0.995576   1915.00000
+4              0.976768  1.000000  0.988247   1934.00000
+5              0.998934  0.955148  0.976550   1962.00000
+accuracy       0.992230  0.992230  0.992230      0.99223
+macro avg      0.992329  0.992351  0.992230  11583.00000
+weighted avg   0.992335  0.992230  0.992172  11583.00000
+
+INFO 2023-05-18 12:43:46,382 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:46:48,600 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:47:42,739 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:49:04,482 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:51:56,959 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:52:31,807 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:52:53,595 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:54:44,485 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:55:03,417 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:55:15,334 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:56:27,954 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:57:00,982 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:57:52,493 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 12:59:19,087 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 13:01:22,829 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 13:03:17,594 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 13:03:50,146 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 13:04:14,579 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-18 13:05:59,519 [root:eda.py:setup:39]
+Created type_of_failure column
+
