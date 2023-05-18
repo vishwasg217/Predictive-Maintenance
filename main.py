@@ -9,6 +9,7 @@ result = scaler.transform([[1410.0, 65.70, 191.00, 25.75, 35.85]])
 rpm = result[0, 0]
 print(rpm)
 print(result)
+print('hello')
 
 
 # Type                          0.00
