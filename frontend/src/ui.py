@@ -20,7 +20,7 @@ def set_page_container_style() -> None:
         /* Configuration of paddings of containers inside main area */
         .main > div {
             max-width: 100%;
-            padding-left: 10%;
+            padding-left: 5%;
         }
 
         /*Font size in tabs */
@@ -150,7 +150,7 @@ def display_report(report_path: Path) -> List[Text]:
     if report_path.is_file():
         with open(report_path, encoding="utf8") as report_f:
             report: Text = report_f.read()
-            components.html(report, width=1000, height=1200, scrolling=True)
+            components.html(report, width=1000, height=1400, scrolling=True)
         return [report]
 
     # If a report is complex report (= directory) then
