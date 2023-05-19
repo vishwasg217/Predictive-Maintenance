@@ -27,22 +27,3 @@ jobs:
             docker-compose build
             docker-compose up -d
           
-      # - name: update changes in codebase
-      #   run: |
-      #     cd Predictive-Maintenance
-      #     git pull origin main
-
-      # - name: remove old docker compose containers and images
-      #   run: |
-      #     docker rm -f $(docker ps -aq)
-      #     docker rmi -f $(docker images -aq)
-          
-      # - name: build docker compose container
-      #   run: |
-      #     docker-compose build
-      #     docker-compose up -d
-        
-
-
-
-
