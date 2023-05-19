@@ -11,10 +11,7 @@ app_url = "http://fastapi:8000"
 endpoint = "/eda"
 model_url = f"{app_url}{endpoint}"
 
-df = pd.read_csv("data/raw/data.csv")
-
 st.title('Exploratory Data Analysis')
-
 
 response = requests.get(model_url)
 response_json = response.json()
