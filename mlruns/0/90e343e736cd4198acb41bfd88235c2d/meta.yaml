@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/90e343e736cd4198acb41bfd88235c2d/artifacts
+end_time: 1684486792336
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90e343e736cd4198acb41bfd88235c2d
+run_name: casual-rook-789
+run_uuid: 90e343e736cd4198acb41bfd88235c2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684486790699
+status: 3
+tags: []
+user_id: vishwasgowda

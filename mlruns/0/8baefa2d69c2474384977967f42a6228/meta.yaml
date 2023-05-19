@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/8baefa2d69c2474384977967f42a6228/artifacts
+end_time: 1684471261544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8baefa2d69c2474384977967f42a6228
+run_name: useful-goose-199
+run_uuid: 8baefa2d69c2474384977967f42a6228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684471259973
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2e2fe8abe6fb4d04a46e61f495fe388c/artifacts
+end_time: 1684480768379
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e2fe8abe6fb4d04a46e61f495fe388c
+run_name: amazing-dolphin-228
+run_uuid: 2e2fe8abe6fb4d04a46e61f495fe388c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480766808
+status: 3
+tags: []
+user_id: vishwasgowda

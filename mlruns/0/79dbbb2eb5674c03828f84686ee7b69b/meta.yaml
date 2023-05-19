@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/79dbbb2eb5674c03828f84686ee7b69b/artifacts
+end_time: 1684487087857
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79dbbb2eb5674c03828f84686ee7b69b
+run_name: enthused-shoat-43
+run_uuid: 79dbbb2eb5674c03828f84686ee7b69b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487086306
+status: 3
+tags: []
+user_id: vishwasgowda

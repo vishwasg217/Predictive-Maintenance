@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d2fe1247d7f2447aa8fa150913f1cbc1/artifacts
+end_time: 1684480794904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2fe1247d7f2447aa8fa150913f1cbc1
+run_name: learned-eel-167
+run_uuid: d2fe1247d7f2447aa8fa150913f1cbc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480793141
+status: 3
+tags: []
+user_id: vishwasgowda

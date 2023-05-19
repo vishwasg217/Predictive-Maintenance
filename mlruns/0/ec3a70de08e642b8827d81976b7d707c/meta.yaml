@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ec3a70de08e642b8827d81976b7d707c/artifacts
+end_time: 1684489716480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec3a70de08e642b8827d81976b7d707c
+run_name: beautiful-shark-159
+run_uuid: ec3a70de08e642b8827d81976b7d707c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489714906
+status: 3
+tags: []
+user_id: vishwasgowda

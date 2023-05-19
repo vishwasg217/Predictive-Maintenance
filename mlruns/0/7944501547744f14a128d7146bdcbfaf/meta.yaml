@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7944501547744f14a128d7146bdcbfaf/artifacts
+end_time: 1684474227332
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7944501547744f14a128d7146bdcbfaf
+run_name: skillful-asp-319
+run_uuid: 7944501547744f14a128d7146bdcbfaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684474225160
+status: 3
+tags: []
+user_id: vishwasgowda

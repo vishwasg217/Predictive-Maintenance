@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b444603bf2fd484eb2e38df1c2e5ea31/artifacts
+end_time: 1684489610992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b444603bf2fd484eb2e38df1c2e5ea31
+run_name: spiffy-kite-121
+run_uuid: b444603bf2fd484eb2e38df1c2e5ea31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489609188
+status: 3
+tags: []
+user_id: vishwasgowda

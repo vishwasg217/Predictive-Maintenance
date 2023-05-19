@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1dad976aa8194b9d9d5923febfd2ca3b/artifacts
+end_time: 1684487103142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1dad976aa8194b9d9d5923febfd2ca3b
+run_name: resilient-ape-730
+run_uuid: 1dad976aa8194b9d9d5923febfd2ca3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487101565
+status: 3
+tags: []
+user_id: vishwasgowda

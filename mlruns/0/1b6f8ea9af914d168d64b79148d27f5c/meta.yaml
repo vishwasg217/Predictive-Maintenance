@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1b6f8ea9af914d168d64b79148d27f5c/artifacts
+end_time: 1684472663657
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b6f8ea9af914d168d64b79148d27f5c
+run_name: funny-mare-850
+run_uuid: 1b6f8ea9af914d168d64b79148d27f5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472661924
+status: 3
+tags: []
+user_id: vishwasgowda

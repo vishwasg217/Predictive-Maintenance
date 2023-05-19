@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/74a79669c3f848408eccdf90b1ae8347/artifacts
+end_time: 1684489691022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74a79669c3f848408eccdf90b1ae8347
+run_name: bald-stag-594
+run_uuid: 74a79669c3f848408eccdf90b1ae8347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489689462
+status: 3
+tags: []
+user_id: vishwasgowda

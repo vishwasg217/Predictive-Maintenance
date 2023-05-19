@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/8d997ae700d34eca81af4016a809d3fa/artifacts
+end_time: 1684480781540
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d997ae700d34eca81af4016a809d3fa
+run_name: nimble-elk-76
+run_uuid: 8d997ae700d34eca81af4016a809d3fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480779956
+status: 3
+tags: []
+user_id: vishwasgowda

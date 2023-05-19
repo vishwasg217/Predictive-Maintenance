@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7ffbe2062385453ead046ca878b5baf7/artifacts
+end_time: 1684489585814
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ffbe2062385453ead046ca878b5baf7
+run_name: traveling-conch-942
+run_uuid: 7ffbe2062385453ead046ca878b5baf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489584086
+status: 3
+tags: []
+user_id: vishwasgowda

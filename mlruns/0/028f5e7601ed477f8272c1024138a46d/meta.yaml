@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/028f5e7601ed477f8272c1024138a46d/artifacts
+end_time: 1684489725491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 028f5e7601ed477f8272c1024138a46d
+run_name: bittersweet-pig-688
+run_uuid: 028f5e7601ed477f8272c1024138a46d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489723854
+status: 3
+tags: []
+user_id: vishwasgowda

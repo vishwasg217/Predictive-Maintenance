@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b7dcc502e5b54cfe9f23c3cf4a553bd1/artifacts
+end_time: 1684472677007
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b7dcc502e5b54cfe9f23c3cf4a553bd1
+run_name: angry-hen-610
+run_uuid: b7dcc502e5b54cfe9f23c3cf4a553bd1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472675269
+status: 3
+tags: []
+user_id: vishwasgowda

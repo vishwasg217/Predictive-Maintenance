@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/ea1f1f46312d4c5280ba653850857819/artifacts
+end_time: 1684487063492
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea1f1f46312d4c5280ba653850857819
+run_name: exultant-shad-610
+run_uuid: ea1f1f46312d4c5280ba653850857819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487061353
+status: 3
+tags: []
+user_id: vishwasgowda

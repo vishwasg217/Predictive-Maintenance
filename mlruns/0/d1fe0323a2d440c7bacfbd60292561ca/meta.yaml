@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d1fe0323a2d440c7bacfbd60292561ca/artifacts
+end_time: 1684489689202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1fe0323a2d440c7bacfbd60292561ca
+run_name: serious-fowl-261
+run_uuid: d1fe0323a2d440c7bacfbd60292561ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489687500
+status: 3
+tags: []
+user_id: vishwasgowda

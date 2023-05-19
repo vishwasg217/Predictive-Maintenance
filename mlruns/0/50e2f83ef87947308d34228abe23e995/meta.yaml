@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/50e2f83ef87947308d34228abe23e995/artifacts
+end_time: 1684489698427
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50e2f83ef87947308d34228abe23e995
+run_name: dapper-eel-558
+run_uuid: 50e2f83ef87947308d34228abe23e995
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489696765
+status: 3
+tags: []
+user_id: vishwasgowda

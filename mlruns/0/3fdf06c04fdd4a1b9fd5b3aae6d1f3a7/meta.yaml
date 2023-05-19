@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3fdf06c04fdd4a1b9fd5b3aae6d1f3a7/artifacts
+end_time: 1684474241621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fdf06c04fdd4a1b9fd5b3aae6d1f3a7
+run_name: agreeable-mule-993
+run_uuid: 3fdf06c04fdd4a1b9fd5b3aae6d1f3a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684474240047
+status: 3
+tags: []
+user_id: vishwasgowda

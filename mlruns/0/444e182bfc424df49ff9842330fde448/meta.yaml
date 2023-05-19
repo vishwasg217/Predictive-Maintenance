@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/444e182bfc424df49ff9842330fde448/artifacts
+end_time: 1684478333071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 444e182bfc424df49ff9842330fde448
+run_name: capricious-mink-491
+run_uuid: 444e182bfc424df49ff9842330fde448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684478331410
+status: 3
+tags: []
+user_id: vishwasgowda

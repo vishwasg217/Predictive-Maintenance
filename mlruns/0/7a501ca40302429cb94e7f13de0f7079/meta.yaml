@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/7a501ca40302429cb94e7f13de0f7079/artifacts
+end_time: 1684480700482
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a501ca40302429cb94e7f13de0f7079
+run_name: tasteful-duck-51
+run_uuid: 7a501ca40302429cb94e7f13de0f7079
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480698716
+status: 3
+tags: []
+user_id: vishwasgowda

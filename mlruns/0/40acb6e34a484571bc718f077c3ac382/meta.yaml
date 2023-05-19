@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/40acb6e34a484571bc718f077c3ac382/artifacts
+end_time: 1684478340455
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40acb6e34a484571bc718f077c3ac382
+run_name: blushing-swan-538
+run_uuid: 40acb6e34a484571bc718f077c3ac382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684478338805
+status: 3
+tags: []
+user_id: vishwasgowda

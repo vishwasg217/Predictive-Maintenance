@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/3ed50ccfe81c4a958f3ec16f7ed0337e/artifacts
+end_time: 1684472044872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ed50ccfe81c4a958f3ec16f7ed0337e
+run_name: puzzled-vole-339
+run_uuid: 3ed50ccfe81c4a958f3ec16f7ed0337e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472042979
+status: 3
+tags: []
+user_id: vishwasgowda

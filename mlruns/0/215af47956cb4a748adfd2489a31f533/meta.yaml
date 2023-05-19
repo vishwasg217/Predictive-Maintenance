@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/215af47956cb4a748adfd2489a31f533/artifacts
+end_time: 1684487075843
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 215af47956cb4a748adfd2489a31f533
+run_name: blushing-fly-986
+run_uuid: 215af47956cb4a748adfd2489a31f533
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487074082
+status: 3
+tags: []
+user_id: vishwasgowda

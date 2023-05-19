@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/914c046f8d9946bcb01f55f905baecc1/artifacts
+end_time: 1684472553887
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 914c046f8d9946bcb01f55f905baecc1
+run_name: unruly-chimp-541
+run_uuid: 914c046f8d9946bcb01f55f905baecc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472552179
+status: 3
+tags: []
+user_id: vishwasgowda

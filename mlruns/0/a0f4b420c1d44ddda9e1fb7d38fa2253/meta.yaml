@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/a0f4b420c1d44ddda9e1fb7d38fa2253/artifacts
+end_time: 1684473875676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0f4b420c1d44ddda9e1fb7d38fa2253
+run_name: monumental-bat-364
+run_uuid: a0f4b420c1d44ddda9e1fb7d38fa2253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684473873944
+status: 3
+tags: []
+user_id: vishwasgowda

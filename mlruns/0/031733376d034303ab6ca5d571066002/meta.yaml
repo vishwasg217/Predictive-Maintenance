@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/031733376d034303ab6ca5d571066002/artifacts
+end_time: 1684472008407
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 031733376d034303ab6ca5d571066002
+run_name: sedate-stag-858
+run_uuid: 031733376d034303ab6ca5d571066002
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472006707
+status: 3
+tags: []
+user_id: vishwasgowda

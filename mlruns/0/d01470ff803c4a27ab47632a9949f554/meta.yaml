@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d01470ff803c4a27ab47632a9949f554/artifacts
+end_time: 1684489714573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d01470ff803c4a27ab47632a9949f554
+run_name: wise-crab-614
+run_uuid: d01470ff803c4a27ab47632a9949f554
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489712908
+status: 3
+tags: []
+user_id: vishwasgowda

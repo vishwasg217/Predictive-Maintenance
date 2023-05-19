@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/9434dc85860740708a56341e53e4acae/artifacts
+end_time: 1684489573354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9434dc85860740708a56341e53e4acae
+run_name: able-cod-653
+run_uuid: 9434dc85860740708a56341e53e4acae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489571210
+status: 3
+tags: []
+user_id: vishwasgowda

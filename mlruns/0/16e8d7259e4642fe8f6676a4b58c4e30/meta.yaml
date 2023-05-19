@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/16e8d7259e4642fe8f6676a4b58c4e30/artifacts
+end_time: 1684487077723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16e8d7259e4642fe8f6676a4b58c4e30
+run_name: aged-sponge-102
+run_uuid: 16e8d7259e4642fe8f6676a4b58c4e30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487076098
+status: 3
+tags: []
+user_id: vishwasgowda

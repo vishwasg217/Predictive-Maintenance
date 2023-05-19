@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/31b29c2fe1844d20bfac5f508ea8b563/artifacts
+end_time: 1684473884805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31b29c2fe1844d20bfac5f508ea8b563
+run_name: grandiose-swan-171
+run_uuid: 31b29c2fe1844d20bfac5f508ea8b563
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684473883180
+status: 3
+tags: []
+user_id: vishwasgowda

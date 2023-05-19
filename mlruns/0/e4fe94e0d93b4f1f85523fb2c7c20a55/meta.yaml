@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e4fe94e0d93b4f1f85523fb2c7c20a55/artifacts
+end_time: 1684480766550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4fe94e0d93b4f1f85523fb2c7c20a55
+run_name: orderly-colt-948
+run_uuid: e4fe94e0d93b4f1f85523fb2c7c20a55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480764673
+status: 3
+tags: []
+user_id: vishwasgowda

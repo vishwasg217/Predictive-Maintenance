@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/65b8c65e548042fdb071b5229e336b9c/artifacts
+end_time: 1684478318714
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65b8c65e548042fdb071b5229e336b9c
+run_name: nervous-hog-719
+run_uuid: 65b8c65e548042fdb071b5229e336b9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684478316469
+status: 3
+tags: []
+user_id: vishwasgowda

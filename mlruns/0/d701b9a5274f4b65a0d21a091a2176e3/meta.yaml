@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/d701b9a5274f4b65a0d21a091a2176e3/artifacts
+end_time: 1684480707733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d701b9a5274f4b65a0d21a091a2176e3
+run_name: calm-eel-106
+run_uuid: d701b9a5274f4b65a0d21a091a2176e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480706133
+status: 3
+tags: []
+user_id: vishwasgowda

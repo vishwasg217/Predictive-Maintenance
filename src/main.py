@@ -5,6 +5,7 @@ import pickle
 import json
 
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 from config import config
 from config.config import ARTIFACTS_DIR
@@ -25,6 +26,7 @@ from src.eda import (
     question_five,
     question_six
 )
+from reports import generate_reports
 
 warnings.filterwarnings("ignore")
 app = typer.Typer()
@@ -52,7 +54,6 @@ def eda(df):
     with open(Path(ARTIFACTS_DIR, "eda.json"), "w+") as f:
         json.dump(json_obj, f)
     
-
 @app.command()
 def preprocess():
     df = pd.read_csv(Path(config.DATA_DIR, "raw/data.csv"))
@@ -65,8 +66,17 @@ def preprocess():
     return df
 
 @app.command()
-def train():
+def split_data():
     df = pd.read_csv(Path(config.DATA_DIR, "processed/preprocessed.csv"))
+    target = 'type_of_failure'
+    train_data, test_data = train_test_split(df, test_size=0.2, random_state=42, stratify=df[target])
+    train_data.to_csv(Path(config.DATA_DIR, "processed/train.csv"), index=False)
+    test_data.to_csv(Path(config.DATA_DIR, "processed/test.csv"), index=False)
+
+
+@app.command()
+def train():
+    df = pd.read_csv(Path(config.DATA_DIR, "processed/train.csv"))
     scores_df, best_model, best_model_name, report = model1(df)
     print("Scores")
     print(scores_df)
@@ -101,9 +111,20 @@ def train():
     with open(Path(ARTIFACTS_DIR, "model2_metrics.json"), "w+") as f:
         json.dump(model_metrics, f)
 
+# @app.command()
+# def generate_reports():
+#     data_report()
+#     model1_report()
+#     model2_report()
+    
+
+# if __name__ == "__main__":
+#     app()
+
 
 # get_data()
 eda(get_data())
 df = preprocess()
+split_data()
 print(df)
 train()

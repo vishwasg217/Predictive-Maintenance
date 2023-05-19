@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1b065cc576ce42328d606dc0b0f08aab/artifacts
+end_time: 1684480796820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b065cc576ce42328d606dc0b0f08aab
+run_name: incongruous-wren-673
+run_uuid: 1b065cc576ce42328d606dc0b0f08aab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480795220
+status: 3
+tags: []
+user_id: vishwasgowda

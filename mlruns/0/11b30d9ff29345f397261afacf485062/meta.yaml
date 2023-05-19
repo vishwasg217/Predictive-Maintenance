@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/11b30d9ff29345f397261afacf485062/artifacts
+end_time: 1684487112369
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11b30d9ff29345f397261afacf485062
+run_name: popular-chimp-697
+run_uuid: 11b30d9ff29345f397261afacf485062
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487110710
+status: 3
+tags: []
+user_id: vishwasgowda

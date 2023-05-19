@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2925cea0f3834e3687423d52d5f104e8/artifacts
+end_time: 1684489587680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2925cea0f3834e3687423d52d5f104e8
+run_name: gentle-yak-40
+run_uuid: 2925cea0f3834e3687423d52d5f104e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489586081
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/17892299fa084a1abbdd6a927b0804d1/artifacts
+end_time: 1684478331154
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17892299fa084a1abbdd6a927b0804d1
+run_name: receptive-wasp-653
+run_uuid: 17892299fa084a1abbdd6a927b0804d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684478329393
+status: 3
+tags: []
+user_id: vishwasgowda

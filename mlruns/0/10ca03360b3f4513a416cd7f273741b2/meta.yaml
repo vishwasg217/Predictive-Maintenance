@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/10ca03360b3f4513a416cd7f273741b2/artifacts
+end_time: 1684487101246
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10ca03360b3f4513a416cd7f273741b2
+run_name: thundering-horse-408
+run_uuid: 10ca03360b3f4513a416cd7f273741b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487099380
+status: 3
+tags: []
+user_id: vishwasgowda

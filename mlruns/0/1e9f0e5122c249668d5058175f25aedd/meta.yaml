@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/1e9f0e5122c249668d5058175f25aedd/artifacts
+end_time: 1684474248902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e9f0e5122c249668d5058175f25aedd
+run_name: crawling-duck-622
+run_uuid: 1e9f0e5122c249668d5058175f25aedd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684474247267
+status: 3
+tags: []
+user_id: vishwasgowda

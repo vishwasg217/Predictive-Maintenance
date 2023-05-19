@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/8fe04da419c24b91b26d907665428d6b/artifacts
+end_time: 1684472649646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8fe04da419c24b91b26d907665428d6b
+run_name: puzzled-tern-921
+run_uuid: 8fe04da419c24b91b26d907665428d6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472648031
+status: 3
+tags: []
+user_id: vishwasgowda

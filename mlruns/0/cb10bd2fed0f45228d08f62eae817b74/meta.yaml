@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/cb10bd2fed0f45228d08f62eae817b74/artifacts
+end_time: 1684489595104
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb10bd2fed0f45228d08f62eae817b74
+run_name: unequaled-pug-799
+run_uuid: cb10bd2fed0f45228d08f62eae817b74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489593464
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/0797dba114a54af49520dcfcd9aca176/artifacts
+end_time: 1684472541606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0797dba114a54af49520dcfcd9aca176
+run_name: auspicious-rat-444
+run_uuid: 0797dba114a54af49520dcfcd9aca176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472539457
+status: 3
+tags: []
+user_id: vishwasgowda

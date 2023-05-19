@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/f2d59df3bf6d41e6a81925ec3ca7aaef/artifacts
+end_time: 1684486769301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2d59df3bf6d41e6a81925ec3ca7aaef
+run_name: classy-ray-225
+run_uuid: f2d59df3bf6d41e6a81925ec3ca7aaef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684486767722
+status: 3
+tags: []
+user_id: vishwasgowda

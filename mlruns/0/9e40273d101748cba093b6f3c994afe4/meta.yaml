@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/9e40273d101748cba093b6f3c994afe4/artifacts
+end_time: 1684472678931
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e40273d101748cba093b6f3c994afe4
+run_name: exultant-bass-232
+run_uuid: 9e40273d101748cba093b6f3c994afe4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472677329
+status: 3
+tags: []
+user_id: vishwasgowda

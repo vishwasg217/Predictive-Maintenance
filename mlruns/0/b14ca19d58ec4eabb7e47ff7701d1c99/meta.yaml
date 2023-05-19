@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b14ca19d58ec4eabb7e47ff7701d1c99/artifacts
+end_time: 1684471996141
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b14ca19d58ec4eabb7e47ff7701d1c99
+run_name: delightful-bass-15
+run_uuid: b14ca19d58ec4eabb7e47ff7701d1c99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684471994015
+status: 3
+tags: []
+user_id: vishwasgowda

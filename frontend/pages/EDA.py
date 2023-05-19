@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 
 from src.eda import setup
 
-app_url = "http://localhost:8000"
+app_url = "http://fastapi:8000"
 endpoint = "/eda"
 model_url = f"{app_url}{endpoint}"
 

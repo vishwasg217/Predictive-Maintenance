@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/bd75d40ed04a416eabb925617011144f/artifacts
+end_time: 1684472031139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd75d40ed04a416eabb925617011144f
+run_name: amazing-koi-455
+run_uuid: bd75d40ed04a416eabb925617011144f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472029354
+status: 3
+tags: []
+user_id: vishwasgowda

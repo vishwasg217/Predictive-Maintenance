@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/fcc598170afa429fb26a01347af8618e/artifacts
+end_time: 1684489676978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fcc598170afa429fb26a01347af8618e
+run_name: loud-bird-888
+run_uuid: fcc598170afa429fb26a01347af8618e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489675017
+status: 3
+tags: []
+user_id: vishwasgowda

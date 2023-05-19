@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/28cb36c4174c4a999c968bb2e6268b1b/artifacts
+end_time: 1684489597649
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28cb36c4174c4a999c968bb2e6268b1b
+run_name: valuable-wolf-534
+run_uuid: 28cb36c4174c4a999c968bb2e6268b1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684489596089
+status: 3
+tags: []
+user_id: vishwasgowda

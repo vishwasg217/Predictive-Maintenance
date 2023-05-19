@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/a33d45ecd9a54fb18bc9801af27d1bc9/artifacts
+end_time: 1684472046925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a33d45ecd9a54fb18bc9801af27d1bc9
+run_name: redolent-turtle-346
+run_uuid: a33d45ecd9a54fb18bc9801af27d1bc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472045197
+status: 3
+tags: []
+user_id: vishwasgowda

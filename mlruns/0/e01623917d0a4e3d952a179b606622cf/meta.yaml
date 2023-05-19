@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/e01623917d0a4e3d952a179b606622cf/artifacts
+end_time: 1684472640454
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e01623917d0a4e3d952a179b606622cf
+run_name: abundant-goat-811
+run_uuid: e01623917d0a4e3d952a179b606622cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472638747
+status: 3
+tags: []
+user_id: vishwasgowda

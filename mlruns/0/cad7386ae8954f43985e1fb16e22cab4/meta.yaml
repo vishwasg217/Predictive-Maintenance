@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/cad7386ae8954f43985e1fb16e22cab4/artifacts
+end_time: 1684473863386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cad7386ae8954f43985e1fb16e22cab4
+run_name: bouncy-wasp-906
+run_uuid: cad7386ae8954f43985e1fb16e22cab4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684473861216
+status: 3
+tags: []
+user_id: vishwasgowda

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/f009ba12775d49cab7ecf39a3a46189a/artifacts
+end_time: 1684480754057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f009ba12775d49cab7ecf39a3a46189a
+run_name: upset-bass-674
+run_uuid: f009ba12775d49cab7ecf39a3a46189a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480751942
+status: 3
+tags: []
+user_id: vishwasgowda

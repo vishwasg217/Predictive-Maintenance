@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/daca6cc8c52a4b35aaf989da27ec4b4e/artifacts
+end_time: 1684471268859
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daca6cc8c52a4b35aaf989da27ec4b4e
+run_name: stately-gnat-958
+run_uuid: daca6cc8c52a4b35aaf989da27ec4b4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684471267227
+status: 3
+tags: []
+user_id: vishwasgowda

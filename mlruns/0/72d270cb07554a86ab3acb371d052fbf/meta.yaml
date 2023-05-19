@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/72d270cb07554a86ab3acb371d052fbf/artifacts
+end_time: 1684472628218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72d270cb07554a86ab3acb371d052fbf
+run_name: chill-boar-581
+run_uuid: 72d270cb07554a86ab3acb371d052fbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684472626219
+status: 3
+tags: []
+user_id: vishwasgowda

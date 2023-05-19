@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/b53c8cb4bc45418dbdaacb0103d56a0d/artifacts
+end_time: 1684471259719
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b53c8cb4bc45418dbdaacb0103d56a0d
+run_name: dapper-shark-324
+run_uuid: b53c8cb4bc45418dbdaacb0103d56a0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684471257997
+status: 3
+tags: []
+user_id: vishwasgowda

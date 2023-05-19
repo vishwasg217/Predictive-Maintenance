@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/6d9875a9f9eb4bcabaf72bf350725312/artifacts
+end_time: 1684486776582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d9875a9f9eb4bcabaf72bf350725312
+run_name: respected-ape-30
+run_uuid: 6d9875a9f9eb4bcabaf72bf350725312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684486774942
+status: 3
+tags: []
+user_id: vishwasgowda

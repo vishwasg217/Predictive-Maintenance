@@ -18,6 +18,13 @@ from sklearn.tree import DecisionTreeClassifier
 
 from config.config import logger
 
+from evidently import ColumnMapping
+from evidently.test_suite import TestSuite
+from evidently.test_preset import DataStabilityTestPreset
+
+from evidently.report import Report
+from evidently.metric_preset import DataDriftPreset, DataQualityPreset, ClassificationPreset
+
 lr = LogisticRegression()
 svc = SVC()
 dt = DecisionTreeClassifier()
@@ -33,7 +40,6 @@ def model1(df: pd.DataFrame):
     y = df["Machine failure"]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
     scores = []
 
     for i, m in enumerate(models):
@@ -69,7 +75,7 @@ def model1(df: pd.DataFrame):
     logger.info('MODEL 1')
     logger.info("Best Model: {} ".format(best_model))
     logger.info(f"Classification Report:\n{report}")
-
+    
     return scores_df, best_model, best_model_name, report
 
 

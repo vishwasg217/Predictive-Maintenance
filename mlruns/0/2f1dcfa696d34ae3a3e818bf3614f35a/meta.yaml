@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/2f1dcfa696d34ae3a3e818bf3614f35a/artifacts
+end_time: 1684486803289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f1dcfa696d34ae3a3e818bf3614f35a
+run_name: bald-sheep-804
+run_uuid: 2f1dcfa696d34ae3a3e818bf3614f35a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684486801628
+status: 3
+tags: []
+user_id: vishwasgowda

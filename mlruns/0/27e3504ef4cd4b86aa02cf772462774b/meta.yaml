@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/27e3504ef4cd4b86aa02cf772462774b/artifacts
+end_time: 1684480805810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27e3504ef4cd4b86aa02cf772462774b
+run_name: kindly-mule-202
+run_uuid: 27e3504ef4cd4b86aa02cf772462774b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684480804128
+status: 3
+tags: []
+user_id: vishwasgowda

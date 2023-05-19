@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishwasgowda/Desktop/Projects/ML/predictive-maintenance/mlruns/0/eb182a5a00164b8093fc9edd692023df/artifacts
+end_time: 1684487085124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb182a5a00164b8093fc9edd692023df
+run_name: blushing-hound-838
+run_uuid: eb182a5a00164b8093fc9edd692023df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684487083487
+status: 3
+tags: []
+user_id: vishwasgowda
