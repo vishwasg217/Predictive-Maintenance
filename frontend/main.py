@@ -7,8 +7,10 @@ st.title('Predictive Maintenance')
 
 
 st.markdown('''
-## 1. Overview
+# Predictive Maintenance
 
+## 1. Overview
+---
 This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize machine learning models that:
 
 - Evaluates whether the equipment will fail or not based on process parameters, including air and process temperatures, rotational speed, torque, and tool wear.
@@ -16,11 +18,11 @@ This design doc outlines the development of a web application for predictive mai
 - Identifies the type of equipment failure in the event of a failure, based on the same process parameters.
 
 ## 2. Motivation
-
+---
 Predictive maintenance can help companies minimize downtime, reduce repair costs, and improve operational efficiency. Developing a web application for predictive maintenance can provide users with real-time insights into equipment performance, enabling proactive maintenance, and reducing unplanned downtime.
 
 ## 3. Success Metrics
-
+---
 The success of the project will be measured based on the following metrics:
 
 - Precsion, recall, and F1 score of the machine learning models.
@@ -28,7 +30,7 @@ The success of the project will be measured based on the following metrics:
 - Reduction in unplanned downtime and repair costs
 
 ## 4. Requirements & Constraints
-
+---
 ### 4.1 Functional Requirements
 
 The web application should provide the following functionality:
@@ -56,7 +58,7 @@ The web application should meet the following non-functional requirements:
 - Providing detailed equipment diagnostic information.
 
 ## 5. Methodology
-
+---
 ### 5.1. Problem Statement
 
 The problem is to develop a machine learning model that predicts equipment failures based on process parameters.
@@ -66,7 +68,6 @@ The problem is to develop a machine learning model that predicts equipment failu
 The dataset consists of more than 50,000 data points stored as rows with 14 features in columns. The features include process parameters such as air and process temperatures, rotational speed, torque, and tool wear. The target variable is a binary label indicating whether the equipment failed or not.
 
 ### 5.3. Techniques
-
 We will utilize both a binary classification model, and a multi-class classification model to predict equipment failures, and type of equipment fauilure respectively. The following machine learning techniques will be used:
 
 - Data preprocessing and cleaning
@@ -76,7 +77,7 @@ We will utilize both a binary classification model, and a multi-class classifica
 - Model evaluation and testing
 
 ## 6. Architecture
-
+---
 The web application architecture will consist of the following components:
 
 - A frontend web application built using Streamlit
@@ -87,7 +88,37 @@ The web application architecture will consist of the following components:
 
 The frontend will interact with the backend server through API calls to request predictions, model training, and data storage. The backend server will manage user authentication, data storage, and model training. The machine learning model will be trained and deployed using Docker containers. The application will be hosted on Digital Ocean droplets.
 
-## 7. Conclusion
+## 7. Pipeline
+---
+
+![Project Pipeline](assets/pipeline.png)
+
+The MLOps (Machine Learning Operations) pipeline project is designed to create an end-to-end workflow for developing and deploying a web application that performs data preprocessing, model training, model evaluation, and prediction. The pipeline leverages Docker containers for encapsulating code, artifacts, and both the frontend and backend components of the application. The application is deployed on a DigitalOcean droplet to provide a cloud hosting solution.
+
+The pipeline follows the following sequence of steps:
+
+`Data`: The pipeline starts with the input data, which is sourced from a specified location. It can be in the form of a CSV file or any other supported format.
+
+`Preprocessing`: The data undergoes preprocessing steps to clean, transform, and prepare it for model training. This stage handles tasks such as missing value imputation, feature scaling, and categorical variable encoding.
+
+`Model Training`: The preprocessed data is used to train machine learning models. The pipeline supports building multiple models, allowing for experimentation and comparison of different algorithms or hyperparameters.
+
+`Model Evaluation`: The trained models are evaluated using appropriate evaluation metrics to assess their performance. This stage helps in selecting the best-performing model for deployment.
+
+`Docker Container`: The pipeline utilizes Docker containers to package the application code, model artifacts, and both the frontend and backend components. This containerization ensures consistent deployment across different environments and simplifies the deployment process.
+
+`DigitalOcean Droplet`: The Docker container, along with the required dependencies, is deployed on a DigitalOcean droplet. DigitalOcean provides a cloud hosting solution that allows for scalability, reliability, and easy management of the web application.
+
+`Web App`: The web application is accessible via a web browser, providing a user-friendly interface for interacting with the prediction functionality. Users can input new data and obtain predictions from the deployed model.
+
+`Prediction`: The deployed model uses the input data from the web application to generate predictions. These predictions are then displayed to the user via the web interface.
+
+`Data`: The predicted data is captured and stored, providing a record of the predictions made by the web application. This data can be used for analysis, monitoring, or further processing as needed.
+
+
+## 8. Conclusion
+
+[Click here](64.227.150.232:8501)  to use the web application.
 
 This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize a machine learning model that identifies equipment failures based on process parameters, including air and process temperatures, rotational speed, torque, and tool wear. The web application will be built using FastAPI and Streamlit and deployed using Docker and Digital Ocean droplets.
 ''')

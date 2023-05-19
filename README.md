@@ -1,4 +1,4 @@
-# ml-design-doc
+# Predictive Maintenance
 
 ## 1. Overview
 ---
@@ -59,7 +59,6 @@ The problem is to develop a machine learning model that predicts equipment failu
 The dataset consists of more than 50,000 data points stored as rows with 14 features in columns. The features include process parameters such as air and process temperatures, rotational speed, torque, and tool wear. The target variable is a binary label indicating whether the equipment failed or not.
 
 ### 5.3. Techniques
----
 We will utilize both a binary classification model, and a multi-class classification model to predict equipment failures, and type of equipment fauilure respectively. The following machine learning techniques will be used:
 
 - Data preprocessing and cleaning
