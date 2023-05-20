@@ -4,6 +4,7 @@ app/__pycache__/
 config/__pycache__/
 src/__pycache__/
 backend/__pycache__/
+frontend/src/__pycache__/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

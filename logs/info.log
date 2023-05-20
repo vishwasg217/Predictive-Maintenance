@@ -2448,3 +2448,126 @@ Created type_of_failure column
 INFO 2023-05-19 15:55:39,145 [root:eda.py:setup:39]
 Created type_of_failure column
 
+INFO 2023-05-20 09:41:41,371 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-20 09:41:41,692 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-20 09:41:41,725 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-20 09:41:41,799 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-20 09:41:41,814 [root:eda.py:question_four:119]
+EDA Question 4 complete
+
+INFO 2023-05-20 09:42:09,821 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-20 09:42:10,134 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-20 09:42:10,168 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-20 09:42:10,242 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-20 09:42:10,257 [root:eda.py:question_four:119]
+EDA Question 4 complete
+
+INFO 2023-05-20 09:42:10,345 [root:eda.py:question_five:132]
+EDA Question 5 complete
+
+INFO 2023-05-20 09:47:13,091 [root:eda.py:setup:39]
+Created type_of_failure column
+
+INFO 2023-05-20 09:47:13,424 [root:eda.py:question_one:45]
+EDA Question 1 complete
+
+INFO 2023-05-20 09:47:13,458 [root:eda.py:question_two:51]
+EDA Question 2 complete
+
+INFO 2023-05-20 09:47:13,533 [root:eda.py:question_three:85]
+EDA Question 3 complete
+
+INFO 2023-05-20 09:47:13,548 [root:eda.py:question_four:119]
+EDA Question 4 complete
+
+INFO 2023-05-20 09:47:13,641 [root:eda.py:question_five:132]
+EDA Question 5 complete
+
+INFO 2023-05-20 10:14:28,591 [root:eda.py:setup:40]
+Created type_of_failure column
+
+INFO 2023-05-20 10:14:28,916 [root:eda.py:question_one:46]
+EDA Question 1 complete
+
+INFO 2023-05-20 10:14:28,950 [root:eda.py:question_two:52]
+EDA Question 2 complete
+
+INFO 2023-05-20 10:14:29,000 [root:eda.py:question_three:93]
+EDA Question 3 complete
+
+INFO 2023-05-20 10:14:29,033 [root:eda.py:question_four:122]
+EDA Question 4 complete
+
+INFO 2023-05-20 10:14:29,119 [root:eda.py:question_five:134]
+EDA Question 5 complete
+
+INFO 2023-05-20 10:43:59,965 [root:eda.py:setup:40]
+Created type_of_failure column
+
+INFO 2023-05-20 10:44:00,296 [root:eda.py:question_one:53]
+EDA Question 1 complete
+
+INFO 2023-05-20 10:44:00,330 [root:eda.py:question_two:59]
+EDA Question 2 complete
+
+INFO 2023-05-20 10:44:00,375 [root:eda.py:question_three:100]
+EDA Question 3 complete
+
+INFO 2023-05-20 10:44:00,408 [root:eda.py:question_four:130]
+EDA Question 4 complete
+
+INFO 2023-05-20 10:44:00,495 [root:eda.py:question_five:142]
+EDA Question 5 complete
+
+INFO 2023-05-20 10:54:11,473 [root:eda.py:setup:40]
+Created type_of_failure column
+
+INFO 2023-05-20 10:54:11,808 [root:eda.py:question_one:53]
+EDA Question 1 complete
+
+INFO 2023-05-20 10:54:11,871 [root:eda.py:question_two:67]
+EDA Question 2 complete
+
+INFO 2023-05-20 10:54:11,918 [root:eda.py:question_three:108]
+EDA Question 3 complete
+
+INFO 2023-05-20 10:54:11,951 [root:eda.py:question_four:138]
+EDA Question 4 complete
+
+INFO 2023-05-20 10:54:12,050 [root:eda.py:question_five:150]
+EDA Question 5 complete
+
+INFO 2023-05-20 10:59:08,640 [root:eda.py:setup:40]
+Created type_of_failure column
+
+INFO 2023-05-20 10:59:08,956 [root:eda.py:question_one:53]
+EDA Question 1 complete
+
+INFO 2023-05-20 10:59:08,991 [root:eda.py:question_two:66]
+EDA Question 2 complete
+
+INFO 2023-05-20 10:59:09,036 [root:eda.py:question_three:107]
+EDA Question 3 complete
+
+INFO 2023-05-20 10:59:09,069 [root:eda.py:question_four:137]
+EDA Question 4 complete
+
+INFO 2023-05-20 10:59:09,154 [root:eda.py:question_five:149]
+EDA Question 5 complete
+

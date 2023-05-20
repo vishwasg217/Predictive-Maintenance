@@ -7,8 +7,6 @@ st.title('Predictive Maintenance')
 
 
 st.markdown('''
-# Predictive Maintenance
-
 ## 1. Overview
 ---
 This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize machine learning models that:
@@ -117,8 +115,5 @@ The pipeline follows the following sequence of steps:
 
 
 ## 8. Conclusion
-
-[Click here](64.227.150.232:8501)  to use the web application.
-
 This design doc outlines the development of a web application for predictive maintenance using a synthetic dataset. The application will utilize a machine learning model that identifies equipment failures based on process parameters, including air and process temperatures, rotational speed, torque, and tool wear. The web application will be built using FastAPI and Streamlit and deployed using Docker and Digital Ocean droplets.
 ''')
