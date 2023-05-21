@@ -48,9 +48,17 @@ def prediction(type, rpm, torque, tool_wear, air_temp, process_temp):
                 5: 'No Failure'}
     
     result2 = encoding[prediction2]
+
+    print(result1, result2)
+
     return result1, result2
 
-prediction('Low', 1410.0,65.70,191.00,25.75,35.85)
+prediction('Low', 1412,	52.3,	218,25.15,	34.95)
+
+# Sample Inputs 
+
+# 1412	52.3	218	1	1	25.15	34.95
+# 'Low', 1410.0,65.70,191.00,25.75,35.85
 
 # Type                          0.00
 # Rotational speed [rpm]     1410.00
@@ -60,3 +68,12 @@ prediction('Low', 1410.0,65.70,191.00,25.75,35.85)
 # type_of_failure               2.00
 # Air temperature [c]          25.75
 # Process temperature [c]      35.85
+
+# {
+#   "type": "Low",
+#   "rpm": 1412,
+#   "torque": 52.3,
+#   "tool_wear": 218,
+#   "air_temp": 25.15,
+#   "process_temp": 34.95
+# }

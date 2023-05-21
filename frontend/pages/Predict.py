@@ -13,8 +13,6 @@ st.set_page_config(page_title="Prediction",layout="wide")
 
 st.title('Predictive Maintenance')
 
-st.write('checking if github actions works')
-
 st.write('Please enter the following parameters')
 
 sample_data = ['Low', 1410.0,65.70,191.00,25.75,35.85, 'Machine Failure', 'Power Failure']
@@ -52,6 +50,7 @@ if st.button("Predict"):
     response = requests.post(model_url, json=data)
     if response.ok:
         response_json = response.json()
+        st.write()
         st.write('Machine Failure?  ', response_json.get('Machine Failure? '))
         st.write('Type of Failure: ', response_json.get('Type of Failure: ')) 
     else:

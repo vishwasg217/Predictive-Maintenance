@@ -132,7 +132,7 @@ def display_header(report_name: Text) -> None:
         period (Text): Period.
         report_name (Text): Report name.
     """
-    st.header(f"Report: {report_name}")
+    st.header(f"{report_name}")
 
 
 @st.cache_data

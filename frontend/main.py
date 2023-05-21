@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 st.set_page_config(page_title="Predictive Maintenance",layout="wide")
 
@@ -88,8 +89,13 @@ The frontend will interact with the backend server through API calls to request 
 
 ## 7. Pipeline
 ---
+''')
 
-![Project Pipeline](assets/pipeline.png)
+image = Image.open('assets/pipeline.png')            
+st.image(image, caption='MLOps Pipeline',use_column_width=True)
+
+st.markdown('''
+
 
 The MLOps (Machine Learning Operations) pipeline project is designed to create an end-to-end workflow for developing and deploying a web application that performs data preprocessing, model training, model evaluation, and prediction. The pipeline leverages Docker containers for encapsulating code, artifacts, and both the frontend and backend components of the application. The application is deployed on a DigitalOcean droplet to provide a cloud hosting solution.
 
