@@ -18,7 +18,7 @@ from config.config import logger, REPORTS_DIR, ARTIFACTS_DIR, DATA_DIR
 
 
 def data_report():
-    ref_data = pd.read_csv(Path(DATA_DIR, "processed/preprocessed.csv"))
+    ref_data = pd.read_csv(Path(DATA_DIR, "processed/train.csv"))
     cur_data = pd.read_csv(Path(DATA_DIR, "processed/test.csv"))
 
     classification_performance_report = Report(metrics=[
@@ -31,7 +31,7 @@ def data_report():
     
 
 def model1_report():
-    ref_data = pd.read_csv(Path(DATA_DIR, "processed/preprocessed.csv"))
+    ref_data = pd.read_csv(Path(DATA_DIR, "processed/train.csv"))
     cur_data = pd.read_csv(Path(DATA_DIR, "processed/test.csv"))
 
     with open("artifacts/model1.pkl", "rb") as f:
@@ -74,7 +74,7 @@ def model1_report():
     classification_performance_report.save_html(Path(REPORTS_DIR, 'model_1_report.html'))
 
 def model2_report():
-    ref_data = pd.read_csv(Path(DATA_DIR, "processed/preprocessed.csv"))
+    ref_data = pd.read_csv(Path(DATA_DIR, "processed/train.csv"))
     cur_data = pd.read_csv(Path(DATA_DIR, "processed/test.csv"))
 
     with open("artifacts/model2.pkl", "rb") as f:
