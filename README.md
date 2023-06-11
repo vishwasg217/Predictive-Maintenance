@@ -76,8 +76,9 @@ The web application architecture will consist of the following components:
 - A machine learning model for equipment failure prediction
 - Docker containers to run the frontend, backend, and model
 - Cloud infrastructure to host the application
+- CI/CD pipeline using GitHub Actions for automated deployment
 
-The frontend will interact with the backend server through API calls to request predictions, model training, and data storage. The backend server will manage user authentication, data storage, and model training. The machine learning model will be trained and deployed using Docker containers. The application will be hosted on Digital Ocean droplets.
+The frontend will interact with the backend server through API calls to request predictions, model training, and data storage. The backend server will manage user authentication, data storage, and model training. The machine learning model will be trained and deployed using Docker containers. The application will be hosted on Digital Ocean droplets. The CI/CD pipeline will be used to automate the deployment process.
 
 ## 7. Pipeline
 ---
@@ -105,6 +106,8 @@ The pipeline follows the following sequence of steps:
 `Prediction`: The deployed model uses the input data from the web application to generate predictions. These predictions are then displayed to the user via the web interface.
 
 `Data`: The predicted data is captured and stored, providing a record of the predictions made by the web application. This data can be used for analysis, monitoring, or further processing as needed.
+
+`CI/CD Pipeline`: The pipeline is automated using GitHub Actions, which allows for continuous integration and deployment of the application. This automation ensures that the application is always up-to-date and provides a consistent experience for users.
 
 
 ## 8. Conclusion
