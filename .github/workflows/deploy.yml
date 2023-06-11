@@ -26,4 +26,3 @@ jobs:
             docker rmi -f $(docker images -aq)
             docker-compose build
             docker-compose up -d
-# vishwas
